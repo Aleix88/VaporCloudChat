@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LaSalleChat</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div class="chatbox">
+            <div class="chatlogs">
+                <div class="chat self">
+                    <h4 class="chat-username">Albert</h4>
+                    <p class="chat-message">Hola quedf!</p>
+                </div>
+                <div class="chat friend">
+                    <h4 class="chat-username">Albert</h4>
+                    <p class="chat-message">Hola pepase!</p>
+                </div>
+            </div>
+            <div class="chat-form">
+                <textarea></textarea>
+                <button>Send</button>
+            </div>
+        </div>
+    </body>
+    
+</html>
