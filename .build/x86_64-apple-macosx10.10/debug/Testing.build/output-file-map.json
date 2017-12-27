@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/master.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Testing/Bytes.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Bytes.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Bytes.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Bytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Bytes.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Testing/Exports.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Exports.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Exports.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Exports.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Testing/Request.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Request.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Request.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Request.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Testing/Responder.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Responder.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Responder.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Responder~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Responder.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Testing/Response.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Response.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Response.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/Response.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Testing/TestingError.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/TestingError.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/TestingError.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/TestingError~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Testing.build/TestingError.swiftdeps"
+  }
+}

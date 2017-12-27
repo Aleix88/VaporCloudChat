@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "53d15091b07f0f8224bd7ccc2fa569a0"
+build_time: [1514398153, 416694000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config+Arguments.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config+Directory.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/ConfigError.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/ConfigInitializable.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/Env.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/Node+Env.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/String+Env.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Environment.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/KeyAccessible+Merge.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/KeyAccessible.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Node+Merge.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Source.swift": [1514398111, 0]
