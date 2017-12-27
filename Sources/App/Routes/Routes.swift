@@ -8,8 +8,18 @@ extension Droplet {
             return json
         }
 
-        get("plaintext") { req in
-            return "Hello, world!"
+        get("plaintext") { request in
+
+            return "si"
+        }
+        
+        post ("user") { req in
+            if let bodyBytes = req.body.bytes {
+                let string = String(bytes: bodyBytes, encoding: String.Encoding.utf8)
+                return string!
+
+            }
+            return "error"
         }
         
         get("chat") {req in

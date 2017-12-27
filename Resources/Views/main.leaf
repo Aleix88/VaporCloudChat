@@ -18,8 +18,8 @@
                 </div>
             </div>
             <div class="chat-form">
-                <form action="http://localhost:8080/plaintext" method="get">
-                    <textarea></textarea>
+                <form action="http://localhost:8080/user" method="post">
+                    <textarea name="message"></textarea>
                     <button type="submit">Send</button>
                 </form>
             </div>
