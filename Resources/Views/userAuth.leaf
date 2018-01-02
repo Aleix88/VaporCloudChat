@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
         <title>LaSalleChatLogin</title>
         <link rel="stylesheet" type="text/css" href="userStyle.css">
     </head>
-    
+
     <body>
         <div class="loginBox">
             <div class="loginHeader">
-                <h1>Enter an username</h1>
+                <h1>ENTER AN USERNAME</h1>
             </div>
             <div class="loginFields">
                 <div class="textField">
-                    <img></img>
-                    <textarea style="overflow:hidden", maxlength="20" ></textarea>
+                    <img src="user_icon.png" alt="User Icon">
+                    <input type="text" name="usrname" maxlength="20" placeholder="USERNAME">
                 </div>
-                <button>Enter</button>
+                <button>ENTER</button>
             </div>
         </div>
     </body>
-    
-</html>
 
+</html>
