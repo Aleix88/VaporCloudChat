@@ -17,9 +17,8 @@ extension Droplet {
             if let bodyBytes = req.body.bytes {
                 let string = String(bytes: bodyBytes, encoding: String.Encoding.utf8)
                 return string!
-
             }
-            return "error"
+            return req.description
         }
         
         get("chat") {req in
