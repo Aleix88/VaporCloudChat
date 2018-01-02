@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.loginBox {
+    background-color: gray;
+    margin: 25% auto;
+    width: 400px;
+    min-width: 200px;
+    height: 200px;
+}
+
+.loginHeader {
+    background-color: orange;
+    text-align: center;
+}
+
+.loginFields {
+    background-color: yellow;
+}
+
+.textField {
+    background-color: green;
+}
+
+.textField textarea {
+    background: transparent;
+    width: 75%;
+    height: 30px;
+    border-color: transparent;
+    border-radius: 3px;
+    resize: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.loginFields button {
+    background-color: purple;
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "448aa76e5601d179c4984f84984e71a6"
+build_time: [1514402407, 20499000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/Run/main.swift": [1514397333, 0]

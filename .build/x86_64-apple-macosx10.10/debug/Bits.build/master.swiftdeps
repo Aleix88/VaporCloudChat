@@ -1,0 +1,23 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "155d2e2d92a316ecc084371891c16ba9"
+build_time: [1514398124, 30764000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Aliases.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Base64Encoder.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Byte+Alphabet.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Byte+ControlCharacters.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Byte+Convenience.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Byte+PatternMatching.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Byte+Random.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Byte+UTF8Numbers.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/ByteSequence+Conversions.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Bytes+Base64.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Bytes+Hex.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Bytes+Percent.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/BytesConvertible.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Data+BytesConvertible.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/HexEncoder.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/Operators.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/String+BytesConvertible.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/UnsignedInteger+BytesConvertible.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bits.git-9196587591774126515/Sources/Bits/UnsignedInteger+Shifting.swift": [1514398116, 0]
