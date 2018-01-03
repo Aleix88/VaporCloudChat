@@ -2,6 +2,7 @@ import FluentProvider
 import MySQLProvider
 import JSON
 import LeafProvider
+import Sessions
 
 extension Config {
     public func setup() throws {

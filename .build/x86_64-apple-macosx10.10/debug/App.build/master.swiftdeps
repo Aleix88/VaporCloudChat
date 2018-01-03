@@ -1,11 +1,11 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "8ae60ff08f78fdc0a9e45da2a9d10ba6"
-build_time: [1514997835, 863234000]
+build_time: [1515004815, 419415000]
 inputs:
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Controllers/DataManager.swift": [1514995073, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Controllers/DataManager.swift": [1515000319, 0]
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Controllers/PostController.swift": [1514397333, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Models/Message.swift": [1514915021, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Models/Message.swift": [1514999175, 0]
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Models/Post.swift": [1514397333, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Routes/Routes.swift": [1514997824, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Setup/Config+Setup.swift": [1514996223, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Routes/Routes.swift": [1515004794, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Setup/Config+Setup.swift": [1515002861, 0]
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/Sources/App/Setup/Droplet+Setup.swift": [1514397333, 0]

@@ -8,24 +8,25 @@
     
     <body>
         <div class="chatbox">
-            <div class="chatlogs">
-                #loop(messages, "message") {
-                    <div class="chat self">
-                        <h4 class="chat-username">Lactosito</h4>
-                        <p class="chat-message">#(message)</p>
+                <div class="chatlogs">
+                    #loop(messages, "message") {
+                        <div class="chat self">
+                            <h4 class="chat-username">#(message.userName)</h4>
+                            <p class="chat-message">#(message.messageText)</p>
+                        </div>
+                    }
+                    <div class="chat friend">
+                        <h4 class="chat-username">caca</h4>
+                        <p class="chat-message">Hola pepase!</p>
                     </div>
-                }
-                <div class="chat friend">
-                    <h4 class="chat-username">caca</h4>
-                    <p class="chat-message">Hola pepase!</p>
                 </div>
-            </div>
-            <div class="chat-form">
-                <form action="http://localhost:8080/chat" method="post">
-                    <textarea name="messageText"></textarea>
-                    <button type="submit">Send</button>
-                </form>
-            </div>
+            <form action="http://localhost:8080/chat" method="post">
+                <div class="chat-form">
+                        <textarea name="messageText"></textarea>
+                        <button type="submit">Send</button>
+                </div>
+            </form>
+
         </div>
     </body>
     

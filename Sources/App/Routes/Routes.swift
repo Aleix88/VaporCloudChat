@@ -17,6 +17,7 @@ extension Droplet {
             guard let text = req.data["messageText"]?.string else {
                 throw Abort(.badRequest)
             }
+            
             let message = Message (userName: "Berni", messageText: text)
             DataManager.messages.append (message)
             var ttext = ""
@@ -26,21 +27,45 @@ extension Droplet {
             
             return ttext
         }
-        //                <form action="http://localhost:8080/user" method="post">
         
         post ("chat") { req in
+//            //Guardem el missatge al array
+//            if let text = req.data["messageText"]?.string {
+//                let message = Message (userName: "Berni", messageText: text)
+//                DataManager.messages.append (message)
+//            }
             
-            guard let text = req.data["messageText"]?.string else {
-                throw Abort(.badRequest)
+            //El printem per pantalla amb leaf
+            var messages = [Node] ()
+            var isUserSaved = true
+            if let userName = req.data["userName"]?.string {
+                isUserSaved = false
             }
-            let message = Message (userName: "Berni", messageText: text)
-            DataManager.messages.append (message)
             
-            var messages = [String] ()
-            for message in DataManager.messages {
-                messages.append (message.messageText)
+            if isUserSaved {
+                let session = try req.assertSession()
+                
+                guard let userName = session.data["userName"]?.string else {
+                    return "error fetching user"
+                }
+                
+                //Guardem el missatge al array
+                if let text = req.data["messageText"]?.string {
+                    let message = Message (userName: userName, messageText: text)
+                    DataManager.messages.append (message)
+                }
+                
+                for message in DataManager.messages {
+                    let messageAux = Message (userName: message.userName, messageText: message.messageText)
+                    messages.append (try messageAux.makeNode (context: nil))
+                }
+            } else {
+                guard let userName = req.data["userName"]?.string else {return "Error getting user from userAuth"}
+                let session = try req.assertSession()
+                try session.data.set("userName", userName)
             }
-            return try self.view.make ("main.leaf", ["messages":messages])
+            
+            return try self.view.make ("main.leaf", Node (node: ["messages":messages]))
         }
         
         get("chat") {req in
@@ -49,6 +74,10 @@ extension Droplet {
                 messages.append (message.messageText)
             }
             return try self.view.make ("main.leaf", ["messages":messages])
+        }
+        
+        get ("userAuth") { req in
+            return try self.view.make ("userAuth.leaf")
         }
 
         // response to requests to /info domain
