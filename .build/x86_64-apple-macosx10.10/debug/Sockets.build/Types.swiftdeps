@@ -4,6 +4,7 @@ provides-top-level:
 - "SocketType"
 - "Protocol"
 - "AddressFamily"
+- "UDPSocketRecvSendFlags"
 - "Port"
 - "StringConvertable"
 - "CTypeInt32Convertible"
@@ -13,6 +14,7 @@ provides-nominal:
 - "7Sockets10SocketTypeO"
 - "7Sockets8ProtocolO"
 - "7Sockets13AddressFamilyO"
+- "7Sockets22UDPSocketRecvSendFlagsO"
 - "7Sockets17StringConvertableP"
 - "7Sockets21CTypeInt32ConvertibleP"
 - "7Sockets39CTypeUnsafePointerOfInt8TypeConvertibleP"
@@ -22,11 +24,13 @@ provides-member:
 - ["7Sockets10SocketTypeO", ""]
 - ["7Sockets8ProtocolO", ""]
 - ["7Sockets13AddressFamilyO", ""]
+- ["7Sockets22UDPSocketRecvSendFlagsO", ""]
 - ["7Sockets17StringConvertableP", ""]
 - ["7Sockets21CTypeInt32ConvertibleP", ""]
 - ["7Sockets39CTypeUnsafePointerOfInt8TypeConvertibleP", ""]
 - ["s6UInt16V", ""]
 - ["7Sockets13AddressFamilyO", "init"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "init"]
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
@@ -45,6 +49,10 @@ depends-top-level:
 - "Int32"
 - "Int8"
 - !private "IntegerLiteralType"
+- !private "MSG_DONTROUTE"
+- !private "MSG_OOB"
+- !private "MSG_PEEK"
+- !private "MSG_WAITALL"
 - !private "PF_INET"
 - !private "PF_INET6"
 - "Port"
@@ -56,6 +64,8 @@ depends-top-level:
 - !private "SocketsError"
 - "String"
 - "StringConvertable"
+- !private "StringLiteralType"
+- "UDPSocketRecvSendFlags"
 - "UInt16"
 - "UnsafePointer"
 - !private "~="
@@ -96,6 +106,10 @@ depends-member:
 - !private ["7Sockets21CTypeInt32ConvertibleP", "IPPROTO_TCP"]
 - !private ["7Sockets21CTypeInt32ConvertibleP", "IPPROTO_UDP"]
 - ["7Sockets21CTypeInt32ConvertibleP", "Int32"]
+- !private ["7Sockets21CTypeInt32ConvertibleP", "MSG_DONTROUTE"]
+- !private ["7Sockets21CTypeInt32ConvertibleP", "MSG_OOB"]
+- !private ["7Sockets21CTypeInt32ConvertibleP", "MSG_PEEK"]
+- !private ["7Sockets21CTypeInt32ConvertibleP", "MSG_WAITALL"]
 - !private ["7Sockets21CTypeInt32ConvertibleP", "PF_INET"]
 - !private ["7Sockets21CTypeInt32ConvertibleP", "PF_INET6"]
 - !private ["7Sockets21CTypeInt32ConvertibleP", "SOCK_DGRAM"]
@@ -107,6 +121,10 @@ depends-member:
 - ["7Sockets21CTypeInt32ConvertibleP", "hashValue"]
 - ["7Sockets21CTypeInt32ConvertibleP", "inet"]
 - ["7Sockets21CTypeInt32ConvertibleP", "inet6"]
+- ["7Sockets21CTypeInt32ConvertibleP", "msg_dontroute"]
+- ["7Sockets21CTypeInt32ConvertibleP", "msg_oob"]
+- ["7Sockets21CTypeInt32ConvertibleP", "msg_peek"]
+- ["7Sockets21CTypeInt32ConvertibleP", "msg_waitall"]
 - ["7Sockets21CTypeInt32ConvertibleP", "stream"]
 - ["7Sockets21CTypeInt32ConvertibleP", "toCType"]
 - ["7Sockets21CTypeInt32ConvertibleP", "unspecified"]
@@ -156,6 +174,10 @@ depends-member:
 - !private ["s9EquatableP", "IPPROTO_TCP"]
 - !private ["s9EquatableP", "IPPROTO_UDP"]
 - !private ["s9EquatableP", "Int32"]
+- !private ["s9EquatableP", "MSG_DONTROUTE"]
+- !private ["s9EquatableP", "MSG_OOB"]
+- !private ["s9EquatableP", "MSG_PEEK"]
+- !private ["s9EquatableP", "MSG_WAITALL"]
 - !private ["s9EquatableP", "PF_INET"]
 - !private ["s9EquatableP", "PF_INET6"]
 - !private ["s9EquatableP", "SOCK_DGRAM"]
@@ -170,12 +192,17 @@ depends-member:
 - ["s9EquatableP", "inet"]
 - ["s9EquatableP", "inet6"]
 - !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "msg_dontroute"]
+- ["s9EquatableP", "msg_oob"]
+- ["s9EquatableP", "msg_peek"]
+- ["s9EquatableP", "msg_waitall"]
 - ["s9EquatableP", "stream"]
 - ["s9EquatableP", "toCType"]
 - ["s9EquatableP", "toString"]
 - ["s9EquatableP", "unspecified"]
 - ["s9EquatableP", ""]
 - !private ["s5ErrorP", "init"]
+- !private ["7Sockets11ErrorReasonO", "generic"]
 - !private ["7Sockets11ErrorReasonO", "unsupportedSocketAddressFamily"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
@@ -195,6 +222,10 @@ depends-member:
 - !private ["s8HashableP", "IPPROTO_TCP"]
 - !private ["s8HashableP", "IPPROTO_UDP"]
 - !private ["s8HashableP", "Int32"]
+- !private ["s8HashableP", "MSG_DONTROUTE"]
+- !private ["s8HashableP", "MSG_OOB"]
+- !private ["s8HashableP", "MSG_PEEK"]
+- !private ["s8HashableP", "MSG_WAITALL"]
 - !private ["s8HashableP", "PF_INET"]
 - !private ["s8HashableP", "PF_INET6"]
 - !private ["s8HashableP", "SOCK_DGRAM"]
@@ -209,6 +240,10 @@ depends-member:
 - ["s8HashableP", "inet"]
 - ["s8HashableP", "inet6"]
 - !private ["s8HashableP", "init"]
+- ["s8HashableP", "msg_dontroute"]
+- ["s8HashableP", "msg_oob"]
+- ["s8HashableP", "msg_peek"]
+- ["s8HashableP", "msg_waitall"]
 - ["s8HashableP", "stream"]
 - ["s8HashableP", "toCType"]
 - ["s8HashableP", "toString"]
@@ -223,6 +258,14 @@ depends-member:
 - ["s25LosslessStringConvertibleP", "toString"]
 - !private ["s10MirrorPathP", "hashValue"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
 - !private ["s7NumericP", "String"]
 - !private ["s7NumericP", "hashValue"]
 - !private ["s7NumericP", "init"]
@@ -273,6 +316,21 @@ depends-member:
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "Int32"]
+- !private ["7Sockets22UDPSocketRecvSendFlagsO", "MSG_DONTROUTE"]
+- !private ["7Sockets22UDPSocketRecvSendFlagsO", "MSG_OOB"]
+- !private ["7Sockets22UDPSocketRecvSendFlagsO", "MSG_PEEK"]
+- !private ["7Sockets22UDPSocketRecvSendFlagsO", "MSG_WAITALL"]
+- !private ["7Sockets22UDPSocketRecvSendFlagsO", "SocketsError"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "__derived_enum_equals"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "deinit"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "hashValue"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "init"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "msg_dontroute"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "msg_oob"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "msg_peek"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "msg_waitall"]
+- ["7Sockets22UDPSocketRecvSendFlagsO", "toCType"]
 - ["s6UInt16V", "String"]
 - ["s6UInt16V", "deinit"]
 - ["s6UInt16V", "toString"]
@@ -293,8 +351,10 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s10_IndexableP", "init"]
 - !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "String"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "hashValue"]
@@ -342,6 +402,14 @@ depends-nominal:
 - !private "s5Int32V"
 - "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - "s7NumericP"
 - "7Sockets8ProtocolO"
 - "7Sockets14ProtocolFamilyO"
@@ -357,6 +425,7 @@ depends-nominal:
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
+- "7Sockets22UDPSocketRecvSendFlagsO"
 - "s6UInt16V"
 - "s15UnsignedIntegerP"
 - !private "s23_BidirectionalIndexableP"
@@ -368,8 +437,10 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "s10_IndexableP"
 - !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 - !private "s26_RangeReplaceableIndexableP"
 - "s11_StrideableP"
@@ -399,4 +470,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "f1294d339bd509a624d0d1209c3e438e"
+interface-hash: "accc067cd0c5b609a5f0151f17a064d9"

@@ -1,13 +1,12 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "49297d48d93713d06600f108a017b2eb"
-build_time: [1514398150, 950397000]
+build_time: [1514993010, 714952000]
 inputs:
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [1514398114, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Equatable.swift": [1514398114, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Fuzzy.swift": [1514398114, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [1514398114, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [1514398114, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [1514398114, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONContext.swift": [1514398114, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [1514398114, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [1514398114, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [1514918963, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Fuzzy.swift": [1514918963, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [1514918963, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [1514918963, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [1514918963, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONContext.swift": [1514918963, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [1514918963, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [1514918963, 0]

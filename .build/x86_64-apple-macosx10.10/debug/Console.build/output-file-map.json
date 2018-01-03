@@ -170,6 +170,12 @@
     "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.build/Stream~partial.swiftmodule",
     "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.build/Stream.swiftdeps"
   },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/console.git--2431895819212044213/Sources/Console/Swift3.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.build/Swift3.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.build/Swift3.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.build/Swift3~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.build/Swift3.swiftdeps"
+  },
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/console.git--2431895819212044213/Sources/Console/Terminal/ConsoleColor+Terminal.swift": {
     "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.build/ConsoleColor+Terminal.d",
     "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.build/Terminal/ConsoleColor+Terminal.swift.o",

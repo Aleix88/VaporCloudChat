@@ -14,15 +14,41 @@ extension Droplet {
         }
         
         post ("user") { req in
-            if let bodyBytes = req.body.bytes {
-                let string = String(bytes: bodyBytes, encoding: String.Encoding.utf8)
-                return string!
+            guard let text = req.data["messageText"]?.string else {
+                throw Abort(.badRequest)
             }
-            return req.description
+            let message = Message (userName: "Berni", messageText: text)
+            DataManager.messages.append (message)
+            var ttext = ""
+            for message in DataManager.messages {
+                ttext += message.messageText
+            }
+            
+            return ttext
+        }
+        //                <form action="http://localhost:8080/user" method="post">
+        
+        post ("chat") { req in
+            
+            guard let text = req.data["messageText"]?.string else {
+                throw Abort(.badRequest)
+            }
+            let message = Message (userName: "Berni", messageText: text)
+            DataManager.messages.append (message)
+            
+            var messages = [String] ()
+            for message in DataManager.messages {
+                messages.append (message.messageText)
+            }
+            return try self.view.make ("main.leaf", ["messages":messages])
         }
         
         get("chat") {req in
-            return try self.view.make ("main.leaf")
+            var messages = [String] ()
+            for message in DataManager.messages {
+                messages.append (message.messageText)
+            }
+            return try self.view.make ("main.leaf", ["messages":messages])
         }
 
         // response to requests to /info domain

@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "f1a4135d8b8f355f8100f612371b9d7b"
-build_time: [1514398148, 320920000]
+build_time: [1514993009, 920740000]
 inputs:
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": [1514398111, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": [1514398111, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": [1514918960, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": [1514918960, 0]

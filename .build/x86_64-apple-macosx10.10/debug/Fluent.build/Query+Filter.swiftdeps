@@ -12,6 +12,8 @@ provides-member:
 - ["6Fluent18QueryRepresentableP", "filter"]
 - ["6Fluent18QueryRepresentableP", "filter"]
 - ["6Fluent18QueryRepresentableP", "filter"]
+- ["6Fluent18QueryRepresentableP", "filter"]
+- ["6Fluent18QueryRepresentableP", "filter"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "??"
@@ -265,4 +267,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "abd6249de0e5a9523f2d00661cad80fe"
+interface-hash: "ce27ed46c6a5821a2d803f40d0e27704"

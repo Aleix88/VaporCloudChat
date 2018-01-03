@@ -344,11 +344,23 @@
     "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Body+JSON~partial.swiftmodule",
     "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Body+JSON.swiftdeps"
   },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Vapor/JSON/HTTP/Message+Codable.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Message+Codable.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/JSON/HTTP/Message+Codable.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Message+Codable~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Message+Codable.swiftdeps"
+  },
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Vapor/JSON/HTTP/Message+JSON.swift": {
     "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Message+JSON.d",
     "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/JSON/HTTP/Message+JSON.swift.o",
     "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Message+JSON~partial.swiftmodule",
     "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Message+JSON.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Vapor/JSON/HTTP/Response+Codable.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Response+Codable.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/JSON/HTTP/Response+Codable.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Response+Codable~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Response+Codable.swiftdeps"
   },
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Vapor/JSON/HTTP/Response+JSON.swift": {
     "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Response+JSON.d",
@@ -535,6 +547,12 @@
     "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Utilities/InitProtocols.swift.o",
     "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/InitProtocols~partial.swiftmodule",
     "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/InitProtocols.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Vapor/Utilities/StringCharacterSequence.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/StringCharacterSequence.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/Utilities/StringCharacterSequence.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/StringCharacterSequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/StringCharacterSequence.swiftdeps"
   },
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Vapor/Utilities/StringInitializable.swift": {
     "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.build/StringInitializable.d",

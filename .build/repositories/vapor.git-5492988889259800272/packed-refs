@@ -9,7 +9,6 @@ faff9ed97afc4c47a301f563046fd9dc501beb8e refs/heads/client
 70bd1b38d647820afa98735584e3065395a124dd refs/heads/ctls
 9e045fb2e5a592ba3ffa251997ae7163a6540cc9 refs/heads/eventloop-rework
 08895061916c50c61c0f78e9510658101040adbe refs/heads/feature/adding_autocomplete_command
-2e873199349958a8b18a7f9f8d315fd57853169b refs/heads/fix-1371
 0fd6cc35783e1b27611cc15958f91cdb8254220c refs/heads/fluent
 c2ddf1d6b29523d8a4330489603ef8a71792cfbd refs/heads/fluent-real
 fa95faf62a2bbfe3ef753906897dcfc41e4e44fd refs/heads/http-codable
@@ -18,10 +17,8 @@ fa95faf62a2bbfe3ef753906897dcfc41e4e44fd refs/heads/http-codable
 4f4ca1b658fa5df16491a67a012f64e6ea97d8d4 refs/heads/jwt-claims
 a6959d9bf1584870dab47b5c3d00dc31b2029b50 refs/heads/master
 bf86ee7c2a9afcf06ace99ed5d128846e919ce80 refs/heads/more-performance-again
-5d1aea94a8a8f8581e97ab29453a98edaaaa2d05 refs/heads/optimize-data-encoder
 2ddcdaa5e6c5102756f9fa1a973311228928b746 refs/heads/postgresql
 b93088154f09c56962af9a676a28a6d592a5479a refs/heads/public-key-crypto
-5cea52d0f73340c5ca8704e94aa676f1813895d9 refs/heads/router-closure-return
 4673dcd5f905fb1f9e098384dbde79ce49e34773 refs/heads/rw-cache
 02fe1d193c45a55a81ded60bfbcd07cac9997b38 refs/heads/ssl-server
 c52582f00541349781014580321c0a5e362416be refs/heads/streams-update
@@ -267,13 +264,10 @@ bdac36d1d70c44e5037570a440db2a2344224eed refs/pull/137/head
 1f69623dbb6215952a542fa0f7d378047f4ee9e6 refs/pull/137/merge
 9e045fb2e5a592ba3ffa251997ae7163a6540cc9 refs/pull/1370/head
 2e873199349958a8b18a7f9f8d315fd57853169b refs/pull/1375/head
-f9f8f42b9d318e8e18b9a36ae35abcbc1f2f32f3 refs/pull/1375/merge
 40b83d7f4f0f1b80f9f55f11f10426ac0c769b88 refs/pull/1377/head
 5cea52d0f73340c5ca8704e94aa676f1813895d9 refs/pull/1379/head
-e1b04b021930c2abf93bae874116306cad4e2f00 refs/pull/1379/merge
 c8088081d9356f552c1cf3138b3d4e20fac19eaa refs/pull/138/head
 5d1aea94a8a8f8581e97ab29453a98edaaaa2d05 refs/pull/1380/head
-64b43b82dc7aeff8e2aa0faea1735496c2f2c4de refs/pull/1380/merge
 c5e9b94faf799eedc83547800c7e15bf022d10c0 refs/pull/1381/head
 f1855635dd97511a972f3a8bc27c38a47af41858 refs/pull/1381/merge
 5a31fc8c7c6a54a8a98494795e0668666c341a33 refs/pull/1384/head

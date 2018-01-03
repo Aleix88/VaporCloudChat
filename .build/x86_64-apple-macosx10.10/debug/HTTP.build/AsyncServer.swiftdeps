@@ -186,6 +186,14 @@ depends-member:
 - !private ["9Transport12ServerStreamP", "makeDescriptor"]
 - !private ["9Transport12ServerStreamP", "port"]
 - !private ["9Transport12ServerStreamP", "scheme"]
+- ["9Transport6StreamP", "Client"]
+- !private ["9Transport6StreamP", "accept"]
+- !private ["9Transport6StreamP", "bind"]
+- !private ["9Transport6StreamP", "hostname"]
+- !private ["9Transport6StreamP", "listen"]
+- !private ["9Transport6StreamP", "makeDescriptor"]
+- !private ["9Transport6StreamP", "port"]
+- !private ["9Transport6StreamP", "scheme"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
@@ -286,6 +294,7 @@ depends-nominal:
 - !private "4HTTP21ResponseRepresentableP"
 - !private "s8SequenceP"
 - "9Transport12ServerStreamP"
+- "9Transport6StreamP"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"

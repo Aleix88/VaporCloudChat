@@ -1,10 +1,10 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "54ab42146c291a46f3c2198088a6543f"
-build_time: [1514398134, 47999000]
+build_time: [1514993007, 542584000]
 inputs:
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Byte.swift": [1514398115, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Modification.swift": [1514398115, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Ports.swift": [1514398115, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+String.swift": [1514398115, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI.swift": [1514398115, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser.swift": [1514398115, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Byte.swift": [1514918964, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Modification.swift": [1514918964, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Ports.swift": [1514918964, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+String.swift": [1514918964, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI.swift": [1514918964, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser.swift": [1514918964, 0]

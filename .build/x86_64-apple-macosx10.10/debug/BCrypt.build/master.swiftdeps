@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "47dce5c799a63206628c0bb3d6cb743b"
-build_time: [1514398142, 875089000]
+build_time: [1514992999, 637617000]
 inputs:
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/BCryptError.swift": [1514398116, 0]
   "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Base64.swift": [1514398116, 0]

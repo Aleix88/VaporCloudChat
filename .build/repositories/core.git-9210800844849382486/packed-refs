@@ -1,7 +1,6 @@
 # pack-refs with: peeled fully-peeled 
 f7c36f013ce7d378c343abec98530e10231f188b refs/heads/async-file
 d960863febf2e26e32afd0f10539a4476f3636ef refs/heads/beta
-c5aeeaa97e72f7bea9dabe1cb4bdcde146d69116 refs/heads/byte-array-helpers
 f4ee1ce26d63a716e84ed476a3c639d4d7e0fe3b refs/heads/cache
 e674863ffc5b0e1f8308fdd71f6dcc6ff3709f38 refs/heads/debugging
 ee3f7ee6eb3ba3fc07fbd8cc26bad73f16619810 refs/heads/expanding-file
@@ -92,7 +91,6 @@ afa088a312467b631b428c1e0cbe36298c0f8708 refs/pull/71/merge
 d960863febf2e26e32afd0f10539a4476f3636ef refs/pull/73/head
 27c9f5080c870aeaaf54c644bdd00258fbe63df6 refs/pull/73/merge
 c5aeeaa97e72f7bea9dabe1cb4bdcde146d69116 refs/pull/74/head
-78eb5512035896760c5ee974ca0b89bde961f1e8 refs/pull/74/merge
 8b9dd1d6acdccec9a703856d982b7d769202bba6 refs/pull/8/head
 21a8f15af1a7310f2a9aaa9c45c29802205906f1 refs/pull/9/head
 6734a157fcbbdeb4de72ecb5e57134e4c7da038b refs/pull/9/merge

@@ -1,33 +1,33 @@
 c5e74759785c7b8b0956c20111dc0a28856d8bbf	not-for-merge	branch '1' of https://github.com/vapor/vapor
-376b6573cb460dde4a3bc02da63799659967f761	not-for-merge	branch 'beta' of https://github.com/vapor/vapor
+d49b475338fcc977b7464967228bc428d6086c2f	not-for-merge	branch 'beta' of https://github.com/vapor/vapor
 1d9d8de2173d15a3727f1ab651069ad80e11abf6	not-for-merge	branch 'cache-data' of https://github.com/vapor/vapor
 f4c1a6ef4f971cc6bc1369caf0e28eec96d93111	not-for-merge	branch 'cached-session' of https://github.com/vapor/vapor
 faff9ed97afc4c47a301f563046fd9dc501beb8e	not-for-merge	branch 'client' of https://github.com/vapor/vapor
 6c6ebdba8d5de203ecbaa5ffb4e0355aaca33830	not-for-merge	branch 'code' of https://github.com/vapor/vapor
 11755970e47a346050fe2e37e642038ef13149db	not-for-merge	branch 'console-options' of https://github.com/vapor/vapor
+45723d61fa4bc0d5b79be6f60769376bd83b9081	not-for-merge	branch 'cookie-shortcut' of https://github.com/vapor/vapor
 70bd1b38d647820afa98735584e3065395a124dd	not-for-merge	branch 'ctls' of https://github.com/vapor/vapor
 9e045fb2e5a592ba3ffa251997ae7163a6540cc9	not-for-merge	branch 'eventloop-rework' of https://github.com/vapor/vapor
 08895061916c50c61c0f78e9510658101040adbe	not-for-merge	branch 'feature/adding_autocomplete_command' of https://github.com/vapor/vapor
-2e873199349958a8b18a7f9f8d315fd57853169b	not-for-merge	branch 'fix-1371' of https://github.com/vapor/vapor
 0fd6cc35783e1b27611cc15958f91cdb8254220c	not-for-merge	branch 'fluent' of https://github.com/vapor/vapor
 c2ddf1d6b29523d8a4330489603ef8a71792cfbd	not-for-merge	branch 'fluent-real' of https://github.com/vapor/vapor
 fa95faf62a2bbfe3ef753906897dcfc41e4e44fd	not-for-merge	branch 'http-codable' of https://github.com/vapor/vapor
 12362cec8073559fa3926791ab58c7c52dc97801	not-for-merge	branch 'http2-client' of https://github.com/vapor/vapor
-262684b112635f67f92d307147b5f87f1cc9912b	not-for-merge	branch 'https-and-uri' of https://github.com/vapor/vapor
+f7665a29922abb08e5976d82d22f1938830834c1	not-for-merge	branch 'https-and-uri' of https://github.com/vapor/vapor
 4f4ca1b658fa5df16491a67a012f64e6ea97d8d4	not-for-merge	branch 'jwt-claims' of https://github.com/vapor/vapor
 a6959d9bf1584870dab47b5c3d00dc31b2029b50	not-for-merge	branch 'master' of https://github.com/vapor/vapor
 bf86ee7c2a9afcf06ace99ed5d128846e919ce80	not-for-merge	branch 'more-performance-again' of https://github.com/vapor/vapor
-5d1aea94a8a8f8581e97ab29453a98edaaaa2d05	not-for-merge	branch 'optimize-data-encoder' of https://github.com/vapor/vapor
 2ddcdaa5e6c5102756f9fa1a973311228928b746	not-for-merge	branch 'postgresql' of https://github.com/vapor/vapor
 b93088154f09c56962af9a676a28a6d592a5479a	not-for-merge	branch 'public-key-crypto' of https://github.com/vapor/vapor
-5cea52d0f73340c5ca8704e94aa676f1813895d9	not-for-merge	branch 'router-closure-return' of https://github.com/vapor/vapor
 4673dcd5f905fb1f9e098384dbde79ce49e34773	not-for-merge	branch 'rw-cache' of https://github.com/vapor/vapor
 02fe1d193c45a55a81ded60bfbcd07cac9997b38	not-for-merge	branch 'ssl-server' of https://github.com/vapor/vapor
+f09ced5e13c1cb35c1239207208a78bade8af593	not-for-merge	branch 'streaming-json' of https://github.com/vapor/vapor
 c52582f00541349781014580321c0a5e362416be	not-for-merge	branch 'streams-update' of https://github.com/vapor/vapor
 37a300b78586a76fdabc36753968c33b34c7ba47	not-for-merge	branch 'swift-2-2' of https://github.com/vapor/vapor
 9af435d3f8dae7021183e567d3d7e5395832ed2a	not-for-merge	branch 'toolbox' of https://github.com/vapor/vapor
 bfbb5af7760a02b9d409d3fc3bca2b1dd45c8b91	not-for-merge	branch 'verbose-futures' of https://github.com/vapor/vapor
 f2a22bc30f92e92cc05644918cc7821c23726c41	not-for-merge	branch 'websocket' of https://github.com/vapor/vapor
+548a2c10b878ef876595305ac1e8f7cb32460124	not-for-merge	branch 'websocket-protocol-rewrite' of https://github.com/vapor/vapor
 9371979a606260b541c58be3184930cf5c9882ca	not-for-merge	branch 'websocket-redis-mysql' of https://github.com/vapor/vapor
 209aec8fe8e5ca4588e27dab08cc42419716be2a	not-for-merge	'refs/pull/100/head' of https://github.com/vapor/vapor
 838f5c53d7178f52476b338e0536f4cdd826686e	not-for-merge	'refs/pull/1001/head' of https://github.com/vapor/vapor
@@ -84,7 +84,7 @@ f66ecfd9d331b54f8a46276d32622863778573c8	not-for-merge	'refs/pull/1106/head' of 
 befc5ad55a6b01885b44073ce9b5569e8776e889	not-for-merge	'refs/pull/1107/head' of https://github.com/vapor/vapor
 f53604d723a7692c56c102c4ca3a476b526dc6c8	not-for-merge	'refs/pull/1109/head' of https://github.com/vapor/vapor
 97e8d2c5208c729f6422a8fb316b895d353c665d	not-for-merge	'refs/pull/1110/head' of https://github.com/vapor/vapor
-376b6573cb460dde4a3bc02da63799659967f761	not-for-merge	'refs/pull/1111/head' of https://github.com/vapor/vapor
+d49b475338fcc977b7464967228bc428d6086c2f	not-for-merge	'refs/pull/1111/head' of https://github.com/vapor/vapor
 1af0ee8f1dc96f6f646c776df3aeeb10d7ecf93d	not-for-merge	'refs/pull/1111/merge' of https://github.com/vapor/vapor
 1d9d8de2173d15a3727f1ab651069ad80e11abf6	not-for-merge	'refs/pull/1112/head' of https://github.com/vapor/vapor
 dc22e78d55299f4630fa8c3ec3df6fcbab741ff5	not-for-merge	'refs/pull/1112/merge' of https://github.com/vapor/vapor
@@ -196,7 +196,7 @@ f96cae723549320d80f65cdb406ada63c224ac98	not-for-merge	'refs/pull/1280/merge' of
 97d4f50de003ac1fdf58b94bfb1411000ccb074c	not-for-merge	'refs/pull/1283/head' of https://github.com/vapor/vapor
 2a496d25b15facb117ec0f9daa78bf834a5ec0e2	not-for-merge	'refs/pull/1283/merge' of https://github.com/vapor/vapor
 3955c4f374ad3c76f1fd44df333c9ffffd597bda	not-for-merge	'refs/pull/1284/head' of https://github.com/vapor/vapor
-beeae9141d56d445c4dbcad0e7b5c1c53a2d80ee	not-for-merge	'refs/pull/1284/merge' of https://github.com/vapor/vapor
+1bf554cc5d09c2dcfb2142a7f38e7162edc981fb	not-for-merge	'refs/pull/1284/merge' of https://github.com/vapor/vapor
 4f57cd80564c2af7fb46f8c9bdddd292c7a77cf0	not-for-merge	'refs/pull/1285/head' of https://github.com/vapor/vapor
 bd0166c90be915484abc9ac5aec439bcc531f4c4	not-for-merge	'refs/pull/1286/head' of https://github.com/vapor/vapor
 e1d3de9e0c1fedf5991c04c4ca7e2fd8502c9853	not-for-merge	'refs/pull/1287/head' of https://github.com/vapor/vapor
@@ -266,26 +266,30 @@ bdac36d1d70c44e5037570a440db2a2344224eed	not-for-merge	'refs/pull/137/head' of h
 1f69623dbb6215952a542fa0f7d378047f4ee9e6	not-for-merge	'refs/pull/137/merge' of https://github.com/vapor/vapor
 9e045fb2e5a592ba3ffa251997ae7163a6540cc9	not-for-merge	'refs/pull/1370/head' of https://github.com/vapor/vapor
 2e873199349958a8b18a7f9f8d315fd57853169b	not-for-merge	'refs/pull/1375/head' of https://github.com/vapor/vapor
-f9f8f42b9d318e8e18b9a36ae35abcbc1f2f32f3	not-for-merge	'refs/pull/1375/merge' of https://github.com/vapor/vapor
 40b83d7f4f0f1b80f9f55f11f10426ac0c769b88	not-for-merge	'refs/pull/1377/head' of https://github.com/vapor/vapor
-5cea52d0f73340c5ca8704e94aa676f1813895d9	not-for-merge	'refs/pull/1379/head' of https://github.com/vapor/vapor
-e1b04b021930c2abf93bae874116306cad4e2f00	not-for-merge	'refs/pull/1379/merge' of https://github.com/vapor/vapor
+b7141985659d76ae5431827bcb748171d5354636	not-for-merge	'refs/pull/1379/head' of https://github.com/vapor/vapor
 c8088081d9356f552c1cf3138b3d4e20fac19eaa	not-for-merge	'refs/pull/138/head' of https://github.com/vapor/vapor
 5d1aea94a8a8f8581e97ab29453a98edaaaa2d05	not-for-merge	'refs/pull/1380/head' of https://github.com/vapor/vapor
-64b43b82dc7aeff8e2aa0faea1735496c2f2c4de	not-for-merge	'refs/pull/1380/merge' of https://github.com/vapor/vapor
 c5e9b94faf799eedc83547800c7e15bf022d10c0	not-for-merge	'refs/pull/1381/head' of https://github.com/vapor/vapor
 f1855635dd97511a972f3a8bc27c38a47af41858	not-for-merge	'refs/pull/1381/merge' of https://github.com/vapor/vapor
 5a31fc8c7c6a54a8a98494795e0668666c341a33	not-for-merge	'refs/pull/1384/head' of https://github.com/vapor/vapor
 701aec7625b373e981f7bb3bc54eb149373e84c3	not-for-merge	'refs/pull/1384/merge' of https://github.com/vapor/vapor
 2254464db7ce486eab86bd1ce1423bf4cb8b941d	not-for-merge	'refs/pull/1387/head' of https://github.com/vapor/vapor
-c7a95e7c59de71b8555b9daf0f7b896b78815612	not-for-merge	'refs/pull/1387/merge' of https://github.com/vapor/vapor
-4a6804e1bcfc117435ec16b8dd44459a2a1287ab	not-for-merge	'refs/pull/1388/head' of https://github.com/vapor/vapor
-a219d023b7852e36ea6c90aef31f19713eb421f2	not-for-merge	'refs/pull/1388/merge' of https://github.com/vapor/vapor
+c532954c2b756b856c5e1630cf0e379f547b13e9	not-for-merge	'refs/pull/1387/merge' of https://github.com/vapor/vapor
+ee9c15bd8794b4e44554161e2ecfa82d99f7c33a	not-for-merge	'refs/pull/1388/head' of https://github.com/vapor/vapor
+472ee0733922c5402690b113f15ce74f29bcb1c5	not-for-merge	'refs/pull/1388/merge' of https://github.com/vapor/vapor
 8b35094015894354533e667ef27c34187d7120e4	not-for-merge	'refs/pull/139/head' of https://github.com/vapor/vapor
 a22baa93ae8b4688d4e17913dd6557840b384f8e	not-for-merge	'refs/pull/139/merge' of https://github.com/vapor/vapor
+f09ced5e13c1cb35c1239207208a78bade8af593	not-for-merge	'refs/pull/1392/head' of https://github.com/vapor/vapor
+adb97c4514bffdbc4b0b4f50ac5efb70584b344a	not-for-merge	'refs/pull/1392/merge' of https://github.com/vapor/vapor
+f7665a29922abb08e5976d82d22f1938830834c1	not-for-merge	'refs/pull/1393/head' of https://github.com/vapor/vapor
+75fc1365e8ad8b03904094a483494a827ee6caf1	not-for-merge	'refs/pull/1393/merge' of https://github.com/vapor/vapor
+bd5abaaf4d9e47540e6418966c45f4bbb140b565	not-for-merge	'refs/pull/1394/head' of https://github.com/vapor/vapor
 4ec485da10960f8d294566b9aa6d70289331601c	not-for-merge	'refs/pull/14/head' of https://github.com/vapor/vapor
 5f817d517024323ae87a6adafe1de7c04e65dbec	not-for-merge	'refs/pull/14/merge' of https://github.com/vapor/vapor
 28f50fa11335ddb6643ef4bd8cf3f31125d19dbb	not-for-merge	'refs/pull/140/head' of https://github.com/vapor/vapor
+548a2c10b878ef876595305ac1e8f7cb32460124	not-for-merge	'refs/pull/1401/head' of https://github.com/vapor/vapor
+d25b61f782822058307eb97cc91c47de4e6f0628	not-for-merge	'refs/pull/1401/merge' of https://github.com/vapor/vapor
 83950ef7366d773e9b1da36cafa205b25f0ba2f2	not-for-merge	'refs/pull/141/head' of https://github.com/vapor/vapor
 1086f43ea56a877c64bdde07b35e8fbb3ebd6059	not-for-merge	'refs/pull/141/merge' of https://github.com/vapor/vapor
 bd602ab94528feb173b772802c969893008e9cb5	not-for-merge	'refs/pull/142/head' of https://github.com/vapor/vapor
