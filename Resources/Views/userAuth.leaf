@@ -3,7 +3,7 @@
 
     <head>
         <title>LaSalleChatLogin</title>
-        <link rel="stylesheet" type="text/css" href="userStyle.css">
+        <link rel="stylesheet" href="styles/userStyle.css">
     </head>
 
     <body>
@@ -13,7 +13,7 @@
             </div>
             <div class="loginFields">
                 <div class="textField">
-                    <img src="user_icon.png" alt="User Icon">
+                    <img src="styles/user_icon.png" alt="User Icon">
                     <form action="http://localhost:8080/chat" method="post">
                         <input type="text" name="userName" maxlength="20" placeholder="USERNAME">
                         <button type="submit">ENTER</button>

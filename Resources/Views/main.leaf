@@ -10,15 +10,20 @@
         <div class="chatbox">
                 <div class="chatlogs">
                     #loop(messages, "message") {
-                        <div class="chat self">
-                            <h4 class="chat-username">#(message.userName)</h4>
-                            <p class="chat-message">#(message.messageText)</p>
-                        </div>
+                    
+                        #equal(message.owner, "owner") {
+                            <div class="chat self">
+                                <h4 class="chat-username">#(message.userName)</h4>
+                                <p class="chat-message">#(message.messageText)</p>
+                            </div>
+                        } ##equal(message.owner, "notOwner") {
+                            <div class="chat friend">
+                                <h4 class="chat-username"> #(message.userName)</h4>
+                                <p class="chat-message"> #(message.messageText)</p>
+                            </div>
+                        }
+                        
                     }
-                    <div class="chat friend">
-                        <h4 class="chat-username">caca</h4>
-                        <p class="chat-message">Hola pepase!</p>
-                    </div>
                 </div>
             <form action="http://localhost:8080/chat" method="post">
                 <div class="chat-form">
