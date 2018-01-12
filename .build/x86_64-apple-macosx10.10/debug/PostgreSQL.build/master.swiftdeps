@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "2efbedd634855f87613cc25dbecbf6f6"
+build_time: [1514919001, 809002000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Bind/BinaryUtils.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Bind/Bind+Node.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Bind/Bind.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Bind/FieldType.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Configuration.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Connection.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/ConnectionInfo.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Context.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Database.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Error.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Exports.swift": [1514909974, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql.git--2366079956334960021/Sources/PostgreSQL/Result.swift": [1514909974, 0]

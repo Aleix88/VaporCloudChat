@@ -1,0 +1,308 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Connection"
+provides-nominal:
+- "16PostgreSQLDriver10ConnectionC"
+provides-member:
+- ["16PostgreSQLDriver10ConnectionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CastingPrecedence"
+- "Connection"
+- !private "FloatLiteralType"
+- "Fluent"
+- !private "IntegerLiteralType"
+- "Node"
+- !private "NodeRepresentable"
+- "PostgreSQL"
+- !private "PostgreSQLError"
+- !private "PostgreSQLSerializer"
+- "Query"
+- !private "QueryError"
+- "QueryLogger"
+- "RawOr"
+- !private "String"
+- !private "||"
+depends-member:
+- !private ["6Fluent6ActionO", "create"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["10PostgreSQL0A8SQLErrorV4CodeO", "connectionDoesNotExist"]
+- !private ["10PostgreSQL0A8SQLErrorV4CodeO", "connectionException"]
+- !private ["10PostgreSQL0A8SQLErrorV4CodeO", "connectionFailure"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["10PostgreSQL21ConnInfoInitializableP", "execute"]
+- !private ["10PostgreSQL21ConnInfoInitializableP", "isConnected"]
+- !private ["10PostgreSQL10ConnectionC", "execute"]
+- !private ["10PostgreSQL10ConnectionC", "isConnected"]
+- ["16PostgreSQLDriver10ConnectionC", "Bool"]
+- ["16PostgreSQLDriver10ConnectionC", "Node"]
+- !private ["16PostgreSQLDriver10ConnectionC", "NodeRepresentable"]
+- ["16PostgreSQLDriver10ConnectionC", "PostgreSQL"]
+- !private ["16PostgreSQLDriver10ConnectionC", "PostgreSQLError"]
+- !private ["16PostgreSQLDriver10ConnectionC", "PostgreSQLSerializer"]
+- ["16PostgreSQLDriver10ConnectionC", "Query"]
+- !private ["16PostgreSQLDriver10ConnectionC", "QueryError"]
+- ["16PostgreSQLDriver10ConnectionC", "QueryLogger"]
+- ["16PostgreSQLDriver10ConnectionC", "RawOr"]
+- !private ["16PostgreSQLDriver10ConnectionC", "String"]
+- ["16PostgreSQLDriver10ConnectionC", "deinit"]
+- ["16PostgreSQLDriver10ConnectionC", "init"]
+- ["16PostgreSQLDriver10ConnectionC", "isClosed"]
+- !private ["16PostgreSQLDriver10ConnectionC", "postgresql"]
+- ["16PostgreSQLDriver10ConnectionC", "postgresqlConnection"]
+- ["16PostgreSQLDriver10ConnectionC", "query"]
+- ["16PostgreSQLDriver10ConnectionC", "queryLogger"]
+- !private ["6Fluent10ConnectionP", "Node"]
+- !private ["6Fluent10ConnectionP", "PostgreSQLSerializer"]
+- !private ["6Fluent10ConnectionP", "QueryError"]
+- ["6Fluent10ConnectionP", "isClosed"]
+- !private ["6Fluent10ConnectionP", "postgresql"]
+- !private ["6Fluent10ConnectionP", "postgresqlConnection"]
+- ["6Fluent10ConnectionP", "query"]
+- ["6Fluent10ConnectionP", "queryLogger"]
+- ["6Fluent10ConnectionP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "connectionClosed"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "raw"]
+- ["s23CustomStringConvertibleP", "some"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["9Debugging10DebuggableP", "code"]
+- !private ["9Debugging10DebuggableP", "connectionClosed"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["6Fluent6EntityP", "idKey"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "array"]
+- !private ["s9EquatableP", "connectionDoesNotExist"]
+- !private ["s9EquatableP", "connectionException"]
+- !private ["s9EquatableP", "connectionFailure"]
+- !private ["s9EquatableP", "create"]
+- !private ["s9EquatableP", "null"]
+- !private ["s9EquatableP", "object"]
+- ["s9EquatableP", "raw"]
+- ["s9EquatableP", "some"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "connectionClosed"]
+- !private ["6Fluent8ExecutorP", "Node"]
+- !private ["6Fluent8ExecutorP", "PostgreSQLSerializer"]
+- !private ["6Fluent8ExecutorP", "QueryError"]
+- ["6Fluent8ExecutorP", "isClosed"]
+- !private ["6Fluent8ExecutorP", "postgresql"]
+- !private ["6Fluent8ExecutorP", "postgresqlConnection"]
+- ["6Fluent8ExecutorP", "query"]
+- ["6Fluent8ExecutorP", "queryLogger"]
+- ["6Fluent8ExecutorP", ""]
+- !private ["6Fluent21ExecutorRepresentableP", "action"]
+- !private ["s25ExpressibleByArrayLiteralP", "array"]
+- !private ["s25ExpressibleByArrayLiteralP", "null"]
+- !private ["s25ExpressibleByArrayLiteralP", "object"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "array"]
+- !private ["s27ExpressibleByBooleanLiteralP", "null"]
+- !private ["s27ExpressibleByBooleanLiteralP", "object"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "array"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "null"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "object"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "array"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "null"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "object"]
+- !private ["s25ExpressibleByFloatLiteralP", "array"]
+- !private ["s25ExpressibleByFloatLiteralP", "null"]
+- !private ["s25ExpressibleByFloatLiteralP", "object"]
+- !private ["s27ExpressibleByIntegerLiteralP", "array"]
+- !private ["s27ExpressibleByIntegerLiteralP", "null"]
+- !private ["s27ExpressibleByIntegerLiteralP", "object"]
+- !private ["s23ExpressibleByNilLiteralP", "array"]
+- !private ["s23ExpressibleByNilLiteralP", "null"]
+- !private ["s23ExpressibleByNilLiteralP", "object"]
+- !private ["s26ExpressibleByStringLiteralP", "array"]
+- !private ["s26ExpressibleByStringLiteralP", "null"]
+- !private ["s26ExpressibleByStringLiteralP", "object"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "array"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "null"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "object"]
+- !private ["4Node14FuzzyConverterP", "array"]
+- !private ["4Node14FuzzyConverterP", "null"]
+- !private ["4Node14FuzzyConverterP", "object"]
+- !private ["6Fluent20GeneralSQLSerializerC", "init"]
+- !private ["6Fluent20GeneralSQLSerializerC", "serialize"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "connectionDoesNotExist"]
+- !private ["s8HashableP", "connectionException"]
+- !private ["s8HashableP", "connectionFailure"]
+- ["s8HashableP", "raw"]
+- ["s8HashableP", "some"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["4NodeAAV", "array"]
+- !private ["4NodeAAV", "null"]
+- !private ["4NodeAAV", "object"]
+- !private ["4Node0A13InitializableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13InitializableP", "array"]
+- !private ["4Node0A13InitializableP", "null"]
+- !private ["4Node0A13InitializableP", "object"]
+- !private ["4Node0A13InitializableP", "subscript"]
+- !private ["4Node0A13RepresentableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13RepresentableP", "array"]
+- !private ["4Node0A13RepresentableP", "null"]
+- !private ["4Node0A13RepresentableP", "object"]
+- !private ["4Node0A13RepresentableP", "subscript"]
+- !private ["13PathIndexableAAP", "array"]
+- !private ["13PathIndexableAAP", "null"]
+- !private ["13PathIndexableAAP", "object"]
+- !private ["10PostgreSQL0A8SQLErrorV", "code"]
+- !private ["16PostgreSQLDriver0A13SQLSerializerC", "deinit"]
+- !private ["16PostgreSQLDriver0A13SQLSerializerC", "init"]
+- !private ["16PostgreSQLDriver0A13SQLSerializerC", "serialize"]
+- !private ["6Fluent5QueryC", "action"]
+- !private ["6Fluent10QueryErrorO", "connectionClosed"]
+- !private ["6Fluent11QueryLoggerP", "log"]
+- !private ["6Fluent18QueryRepresentableP", "action"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["6Fluent5RawOrO", "raw"]
+- ["6Fluent5RawOrO", "some"]
+- !private ["s16RawRepresentableP", "connectionDoesNotExist"]
+- !private ["s16RawRepresentableP", "connectionException"]
+- !private ["s16RawRepresentableP", "connectionFailure"]
+- !private ["6Fluent14RowConvertibleP", "idKey"]
+- !private ["6Fluent16RowInitializableP", "idKey"]
+- !private ["6Fluent16RowRepresentableP", "idKey"]
+- !private ["6Fluent13SQLSerializerP", "init"]
+- !private ["6Fluent13SQLSerializerP", "serialize"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["6Fluent8StorableP", "idKey"]
+- !private ["4Node21StructuredDataWrapperP", "array"]
+- !private ["4Node21StructuredDataWrapperP", "null"]
+- !private ["4Node21StructuredDataWrapperP", "object"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+depends-nominal:
+- !private "6Fluent6ActionO"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "10PostgreSQL0A8SQLErrorV4CodeO"
+- !private "s10CollectionP"
+- !private "10PostgreSQL21ConnInfoInitializableP"
+- !private "10PostgreSQL10ConnectionC"
+- "16PostgreSQLDriver10ConnectionC"
+- "6Fluent10ConnectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Debugging10DebuggableP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- !private "6Fluent6EntityP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "6Fluent8ExecutorP"
+- !private "6Fluent21ExecutorRepresentableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "4Node14FuzzyConverterP"
+- !private "6Fluent20GeneralSQLSerializerC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- !private "4NodeAAV"
+- !private "4Node0A13InitializableP"
+- !private "4Node0A13RepresentableP"
+- !private "13PathIndexableAAP"
+- !private "10PostgreSQL0A8SQLErrorV"
+- !private "16PostgreSQLDriver0A13SQLSerializerC"
+- !private "6Fluent5QueryC"
+- !private "6Fluent10QueryErrorO"
+- !private "6Fluent11QueryLoggerP"
+- !private "6Fluent18QueryRepresentableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "6Fluent5RawOrO"
+- !private "s16RawRepresentableP"
+- !private "6Fluent14RowConvertibleP"
+- !private "6Fluent16RowInitializableP"
+- !private "6Fluent16RowRepresentableP"
+- !private "6Fluent13SQLSerializerP"
+- !private "s8SequenceP"
+- !private "6Fluent8StorableP"
+- !private "4Node21StructuredDataWrapperP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PostgreSQL.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/cpostgresql.git-2801679829006959247/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ee57a95f62ddf253e105eed861dbb2ee"

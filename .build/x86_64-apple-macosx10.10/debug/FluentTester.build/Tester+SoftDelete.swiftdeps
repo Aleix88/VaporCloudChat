@@ -1,0 +1,429 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "12FluentTester8CompoundC"
+provides-member:
+- ["12FluentTester0B0C", ""]
+- ["12FluentTester8CompoundC", ""]
+- ["12FluentTester0B0C", "testSoftDelete"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Compound"
+- "SoftDeletable"
+- !private "StringLiteralType"
+- "Tester"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["4Bits16BytesConvertibleP", "init"]
+- !private ["4Bits18BytesInitializableP", "init"]
+- !private ["4Bits18BytesRepresentableP", "init"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["12FluentTester8CompoundC", "all"]
+- !private ["12FluentTester8CompoundC", "count"]
+- !private ["12FluentTester8CompoundC", "database"]
+- ["12FluentTester8CompoundC", "deinit"]
+- !private ["12FluentTester8CompoundC", "delete"]
+- ["12FluentTester8CompoundC", "deletedAt"]
+- ["12FluentTester8CompoundC", "deletedAtKey"]
+- ["12FluentTester8CompoundC", "didForceDelete"]
+- ["12FluentTester8CompoundC", "didRestore"]
+- ["12FluentTester8CompoundC", "didSoftDelete"]
+- !private ["12FluentTester8CompoundC", "forceDelete"]
+- !private ["12FluentTester8CompoundC", "id"]
+- !private ["12FluentTester8CompoundC", "init"]
+- !private ["12FluentTester8CompoundC", "makeQuery"]
+- !private ["12FluentTester8CompoundC", "prepare"]
+- !private ["12FluentTester8CompoundC", "restore"]
+- !private ["12FluentTester8CompoundC", "revert"]
+- !private ["12FluentTester8CompoundC", "save"]
+- ["12FluentTester8CompoundC", "willForceDelete"]
+- ["12FluentTester8CompoundC", "willRestore"]
+- ["12FluentTester8CompoundC", "willSoftDelete"]
+- !private ["12FluentTester8CompoundC", "withSoftDeleted"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["6Fluent6EntityP", "all"]
+- !private ["6Fluent6EntityP", "count"]
+- !private ["6Fluent6EntityP", "database"]
+- !private ["6Fluent6EntityP", "delete"]
+- ["6Fluent6EntityP", "deletedAt"]
+- ["6Fluent6EntityP", "deletedAtKey"]
+- ["6Fluent6EntityP", "didForceDelete"]
+- ["6Fluent6EntityP", "didRestore"]
+- ["6Fluent6EntityP", "didSoftDelete"]
+- !private ["6Fluent6EntityP", "forceDelete"]
+- !private ["6Fluent6EntityP", "id"]
+- !private ["6Fluent6EntityP", "init"]
+- !private ["6Fluent6EntityP", "makeQuery"]
+- !private ["6Fluent6EntityP", "prepare"]
+- !private ["6Fluent6EntityP", "restore"]
+- !private ["6Fluent6EntityP", "revert"]
+- !private ["6Fluent6EntityP", "save"]
+- ["6Fluent6EntityP", "willForceDelete"]
+- ["6Fluent6EntityP", "willRestore"]
+- ["6Fluent6EntityP", "willSoftDelete"]
+- !private ["6Fluent6EntityP", "withSoftDeleted"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["12FluentTester0B0C5ErrorO", "deinit"]
+- !private ["12FluentTester0B0C5ErrorO", "failed"]
+- !private ["s5ErrorP", "failed"]
+- !private ["6Fluent21ExecutorRepresentableP", "all"]
+- !private ["6Fluent21ExecutorRepresentableP", "count"]
+- !private ["6Fluent21ExecutorRepresentableP", "delete"]
+- !private ["6Fluent21ExecutorRepresentableP", "filter"]
+- !private ["6Fluent21ExecutorRepresentableP", "find"]
+- !private ["6Fluent21ExecutorRepresentableP", "forceDelete"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["4Node0A13InitializableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13InitializableP", "count"]
+- !private ["4Node0A13InitializableP", "init"]
+- !private ["4Node0A13RepresentableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13RepresentableP", "count"]
+- !private ["4Node0A13RepresentableP", "init"]
+- !private ["6Fluent11PaginatableP", "all"]
+- !private ["6Fluent11PaginatableP", "count"]
+- !private ["6Fluent11PaginatableP", "database"]
+- !private ["6Fluent11PaginatableP", "delete"]
+- ["6Fluent11PaginatableP", "deletedAt"]
+- ["6Fluent11PaginatableP", "deletedAtKey"]
+- ["6Fluent11PaginatableP", "didForceDelete"]
+- ["6Fluent11PaginatableP", "didRestore"]
+- ["6Fluent11PaginatableP", "didSoftDelete"]
+- !private ["6Fluent11PaginatableP", "forceDelete"]
+- !private ["6Fluent11PaginatableP", "id"]
+- !private ["6Fluent11PaginatableP", "init"]
+- !private ["6Fluent11PaginatableP", "makeQuery"]
+- !private ["6Fluent11PaginatableP", "prepare"]
+- !private ["6Fluent11PaginatableP", "restore"]
+- !private ["6Fluent11PaginatableP", "revert"]
+- !private ["6Fluent11PaginatableP", "save"]
+- ["6Fluent11PaginatableP", "willForceDelete"]
+- ["6Fluent11PaginatableP", "willRestore"]
+- ["6Fluent11PaginatableP", "willSoftDelete"]
+- !private ["6Fluent11PaginatableP", "withSoftDeleted"]
+- !private ["13PathIndexable0A7IndexerP", "init"]
+- !private ["6Fluent5QueryC", "all"]
+- !private ["6Fluent5QueryC", "count"]
+- !private ["6Fluent5QueryC", "delete"]
+- !private ["6Fluent5QueryC", "filter"]
+- !private ["6Fluent5QueryC", "find"]
+- !private ["6Fluent5QueryC", "forceDelete"]
+- !private ["6Fluent18QueryRepresentableP", "all"]
+- !private ["6Fluent18QueryRepresentableP", "count"]
+- !private ["6Fluent18QueryRepresentableP", "delete"]
+- !private ["6Fluent18QueryRepresentableP", "filter"]
+- !private ["6Fluent18QueryRepresentableP", "find"]
+- !private ["6Fluent18QueryRepresentableP", "forceDelete"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["6Fluent14RowConvertibleP", "all"]
+- !private ["6Fluent14RowConvertibleP", "count"]
+- !private ["6Fluent14RowConvertibleP", "database"]
+- !private ["6Fluent14RowConvertibleP", "delete"]
+- ["6Fluent14RowConvertibleP", "deletedAt"]
+- ["6Fluent14RowConvertibleP", "deletedAtKey"]
+- ["6Fluent14RowConvertibleP", "didForceDelete"]
+- ["6Fluent14RowConvertibleP", "didRestore"]
+- ["6Fluent14RowConvertibleP", "didSoftDelete"]
+- !private ["6Fluent14RowConvertibleP", "forceDelete"]
+- !private ["6Fluent14RowConvertibleP", "id"]
+- !private ["6Fluent14RowConvertibleP", "init"]
+- !private ["6Fluent14RowConvertibleP", "makeQuery"]
+- !private ["6Fluent14RowConvertibleP", "prepare"]
+- !private ["6Fluent14RowConvertibleP", "restore"]
+- !private ["6Fluent14RowConvertibleP", "revert"]
+- !private ["6Fluent14RowConvertibleP", "save"]
+- ["6Fluent14RowConvertibleP", "willForceDelete"]
+- ["6Fluent14RowConvertibleP", "willRestore"]
+- ["6Fluent14RowConvertibleP", "willSoftDelete"]
+- !private ["6Fluent14RowConvertibleP", "withSoftDeleted"]
+- !private ["6Fluent16RowInitializableP", "all"]
+- !private ["6Fluent16RowInitializableP", "count"]
+- !private ["6Fluent16RowInitializableP", "database"]
+- !private ["6Fluent16RowInitializableP", "delete"]
+- ["6Fluent16RowInitializableP", "deletedAt"]
+- ["6Fluent16RowInitializableP", "deletedAtKey"]
+- ["6Fluent16RowInitializableP", "didForceDelete"]
+- ["6Fluent16RowInitializableP", "didRestore"]
+- ["6Fluent16RowInitializableP", "didSoftDelete"]
+- !private ["6Fluent16RowInitializableP", "forceDelete"]
+- !private ["6Fluent16RowInitializableP", "id"]
+- !private ["6Fluent16RowInitializableP", "init"]
+- !private ["6Fluent16RowInitializableP", "makeQuery"]
+- !private ["6Fluent16RowInitializableP", "prepare"]
+- !private ["6Fluent16RowInitializableP", "restore"]
+- !private ["6Fluent16RowInitializableP", "revert"]
+- !private ["6Fluent16RowInitializableP", "save"]
+- ["6Fluent16RowInitializableP", "willForceDelete"]
+- ["6Fluent16RowInitializableP", "willRestore"]
+- ["6Fluent16RowInitializableP", "willSoftDelete"]
+- !private ["6Fluent16RowInitializableP", "withSoftDeleted"]
+- !private ["6Fluent16RowRepresentableP", "all"]
+- !private ["6Fluent16RowRepresentableP", "count"]
+- !private ["6Fluent16RowRepresentableP", "database"]
+- !private ["6Fluent16RowRepresentableP", "delete"]
+- ["6Fluent16RowRepresentableP", "deletedAt"]
+- ["6Fluent16RowRepresentableP", "deletedAtKey"]
+- ["6Fluent16RowRepresentableP", "didForceDelete"]
+- ["6Fluent16RowRepresentableP", "didRestore"]
+- ["6Fluent16RowRepresentableP", "didSoftDelete"]
+- !private ["6Fluent16RowRepresentableP", "forceDelete"]
+- !private ["6Fluent16RowRepresentableP", "id"]
+- !private ["6Fluent16RowRepresentableP", "init"]
+- !private ["6Fluent16RowRepresentableP", "makeQuery"]
+- !private ["6Fluent16RowRepresentableP", "prepare"]
+- !private ["6Fluent16RowRepresentableP", "restore"]
+- !private ["6Fluent16RowRepresentableP", "revert"]
+- !private ["6Fluent16RowRepresentableP", "save"]
+- ["6Fluent16RowRepresentableP", "willForceDelete"]
+- ["6Fluent16RowRepresentableP", "willRestore"]
+- ["6Fluent16RowRepresentableP", "willSoftDelete"]
+- !private ["6Fluent16RowRepresentableP", "withSoftDeleted"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["6Fluent13SoftDeletableP", "all"]
+- !private ["6Fluent13SoftDeletableP", "count"]
+- !private ["6Fluent13SoftDeletableP", "database"]
+- !private ["6Fluent13SoftDeletableP", "delete"]
+- ["6Fluent13SoftDeletableP", "deletedAt"]
+- ["6Fluent13SoftDeletableP", "deletedAtKey"]
+- ["6Fluent13SoftDeletableP", "didForceDelete"]
+- ["6Fluent13SoftDeletableP", "didRestore"]
+- ["6Fluent13SoftDeletableP", "didSoftDelete"]
+- !private ["6Fluent13SoftDeletableP", "forceDelete"]
+- !private ["6Fluent13SoftDeletableP", "id"]
+- !private ["6Fluent13SoftDeletableP", "init"]
+- !private ["6Fluent13SoftDeletableP", "makeQuery"]
+- !private ["6Fluent13SoftDeletableP", "prepare"]
+- !private ["6Fluent13SoftDeletableP", "restore"]
+- !private ["6Fluent13SoftDeletableP", "revert"]
+- !private ["6Fluent13SoftDeletableP", "save"]
+- ["6Fluent13SoftDeletableP", "willForceDelete"]
+- ["6Fluent13SoftDeletableP", "willRestore"]
+- ["6Fluent13SoftDeletableP", "willSoftDelete"]
+- !private ["6Fluent13SoftDeletableP", "withSoftDeleted"]
+- ["6Fluent13SoftDeletableP", ""]
+- !private ["6Fluent8StorableP", "all"]
+- !private ["6Fluent8StorableP", "count"]
+- !private ["6Fluent8StorableP", "database"]
+- !private ["6Fluent8StorableP", "delete"]
+- ["6Fluent8StorableP", "deletedAt"]
+- ["6Fluent8StorableP", "deletedAtKey"]
+- ["6Fluent8StorableP", "didForceDelete"]
+- ["6Fluent8StorableP", "didRestore"]
+- ["6Fluent8StorableP", "didSoftDelete"]
+- !private ["6Fluent8StorableP", "forceDelete"]
+- !private ["6Fluent8StorableP", "id"]
+- !private ["6Fluent8StorableP", "init"]
+- !private ["6Fluent8StorableP", "makeQuery"]
+- !private ["6Fluent8StorableP", "prepare"]
+- !private ["6Fluent8StorableP", "restore"]
+- !private ["6Fluent8StorableP", "revert"]
+- !private ["6Fluent8StorableP", "save"]
+- ["6Fluent8StorableP", "willForceDelete"]
+- ["6Fluent8StorableP", "willRestore"]
+- ["6Fluent8StorableP", "willSoftDelete"]
+- !private ["6Fluent8StorableP", "withSoftDeleted"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["12FluentTester0B0C", "Compound"]
+- !private ["12FluentTester0B0C", "Error"]
+- !private ["12FluentTester0B0C", "database"]
+- ["12FluentTester0B0C", "testSoftDelete"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6Fluent13TimestampableP", "all"]
+- !private ["6Fluent13TimestampableP", "count"]
+- !private ["6Fluent13TimestampableP", "database"]
+- !private ["6Fluent13TimestampableP", "delete"]
+- ["6Fluent13TimestampableP", "deletedAt"]
+- ["6Fluent13TimestampableP", "deletedAtKey"]
+- ["6Fluent13TimestampableP", "didForceDelete"]
+- ["6Fluent13TimestampableP", "didRestore"]
+- ["6Fluent13TimestampableP", "didSoftDelete"]
+- !private ["6Fluent13TimestampableP", "forceDelete"]
+- !private ["6Fluent13TimestampableP", "id"]
+- !private ["6Fluent13TimestampableP", "init"]
+- !private ["6Fluent13TimestampableP", "makeQuery"]
+- !private ["6Fluent13TimestampableP", "prepare"]
+- !private ["6Fluent13TimestampableP", "restore"]
+- !private ["6Fluent13TimestampableP", "revert"]
+- !private ["6Fluent13TimestampableP", "save"]
+- ["6Fluent13TimestampableP", "willForceDelete"]
+- ["6Fluent13TimestampableP", "willRestore"]
+- ["6Fluent13TimestampableP", "willSoftDelete"]
+- !private ["6Fluent13TimestampableP", "withSoftDeleted"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "4Bits16BytesConvertibleP"
+- !private "4Bits18BytesInitializableP"
+- !private "4Bits18BytesRepresentableP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "12FluentTester8CompoundC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "6Fluent6EntityP"
+- !private "s9EquatableP"
+- !private "12FluentTester0B0C5ErrorO"
+- !private "s5ErrorP"
+- !private "6Fluent21ExecutorRepresentableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "4Node0A13InitializableP"
+- !private "4Node0A13RepresentableP"
+- "6Fluent11PaginatableP"
+- !private "13PathIndexable0A7IndexerP"
+- !private "6Fluent5QueryC"
+- !private "6Fluent18QueryRepresentableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "6Fluent14RowConvertibleP"
+- "6Fluent16RowInitializableP"
+- "6Fluent16RowRepresentableP"
+- !private "s8SequenceP"
+- "6Fluent13SoftDeletableP"
+- "6Fluent8StorableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "12FluentTester0B0C"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "6Fluent13TimestampableP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8c87d14742dc67dbd6e451ab9380d91e"

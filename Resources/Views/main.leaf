@@ -3,36 +3,64 @@
     <head>
         <title>LaSalleChat</title>
         <link rel="stylesheet" href="styles/style.css">
-
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     </head>
     
-    <body>
-        <div class="chatbox">
-                <div class="chatlogs">
-                    #loop(messages, "message") {
-                    
-                        #equal(message.owner, "owner") {
-                            <div class="chat self">
-                                <h4 class="chat-username">#(message.userName)</h4>
-                                <p class="chat-message">#(message.messageText)</p>
-                            </div>
-                        } ##equal(message.owner, "notOwner") {
-                            <div class="chat friend">
-                                <h4 class="chat-username"> #(message.userName)</h4>
-                                <p class="chat-message"> #(message.messageText)</p>
-                            </div>
-                        }
-                        
-                    }
-                </div>
-            <form action="http://localhost:8080/chat" method="post">
+        <body>
+            <div class="chatbox" id="chatbox">
+            <div class="chatlogs" id="chatlogs">
+            #loop(messages, "message") {
+                #equal(message.owner, "owner") {
+                    <div class="chat self">
+                    <h4 class="chat-username">#(message.userName)</h4>
+                    <p class="chat-message">#(message.messageText)</p>
+                    </div>
+                } ##equal(message.owner, "notOwner") {
+                    <div class="chat friend">
+                    <h4 class="chat-username"> #(message.userName)</h4>
+                    <p class="chat-message"> #(message.messageText)</p>
+                    </div>
+                }
+                
+            }
+            </div>
                 <div class="chat-form">
-                        <textarea name="messageText"></textarea>
-                        <button type="submit">Send</button>
+                    <input type="text">
+                    <button type="submit" id="mybutton2">Send</button>
                 </div>
-            </form>
+            <button type="submit" id="mybutton">Update</button>
+            </div>
+        </body>
+        
+        <script>
+            
+            $("#()mybutton").click(update);
+            $("#()mybutton2").click(setClicked);
+            $("#()mybutton2").click(update);
 
-        </div>
-    </body>
+            var clicked = false;
+            
+            function update() {
+                var txt = $("input").val();
+        
+                if (txt && clicked) {
+                    $.post ("http://localhost:8080/chatSecond", {messageText: txt}, function(data) {
+                            $("#()chatlogs").html(data);
+                            window.setTimeout(update, 3000);
+                            });
+                    clicked = false;
+                } else {
+                    $.post ("http://localhost:8080/chatSecond", function(data) {
+                            $("#()chatlogs").html(data);
+                            window.setTimeout(update, 3000);
+                            });
+                }
+            }
+        
+        function setClicked () {
+            clicked = true;
+        }
+        
+        </script>
     
 </html>

@@ -1,0 +1,115 @@
+cb261cc4e559432287038298f8c605bdaba28824	not-for-merge	branch '1.1.0' of https://github.com/vapor/mysql-driver
+21d436631ff06c0e58b9496971ffbbaf155822d8	not-for-merge	branch 'Casperhr-patch-1' of https://github.com/vapor/mysql-driver
+6a2ba5b186b8046f93f5f686b605314473d65a83	not-for-merge	branch 'Casperhr-patch-2' of https://github.com/vapor/mysql-driver
+b60b0a2e9f1e5e2952806bc13fd8cef66e50eae8	not-for-merge	branch 'add-fractional-seconds-support' of https://github.com/vapor/mysql-driver
+2aad33f589aef954830b6c5f013fb74512c58e15	not-for-merge	branch 'beta' of https://github.com/vapor/mysql-driver
+a77588f09105cb2bb24ce3ad88ee151daf42f886	not-for-merge	branch 'case-convention' of https://github.com/vapor/mysql-driver
+c5114daf3b9adf48223fb27a3a28184449c07c49	not-for-merge	branch 'casperhr' of https://github.com/vapor/mysql-driver
+23f98e146d5525edf27560cf816f148202535e62	not-for-merge	branch 'delete-foreign-key' of https://github.com/vapor/mysql-driver
+4422522069eec2d86bd8ca98e8c0361d01241e6e	not-for-merge	branch 'fix-1334' of https://github.com/vapor/mysql-driver
+3e364d440eea95bb52520993914ea92292d19309	not-for-merge	branch 'fluent-1.4' of https://github.com/vapor/mysql-driver
+1b31c315b78155498c0aa275ba87e5b34d6801db	not-for-merge	branch 'fluent-10' of https://github.com/vapor/mysql-driver
+6d5890d455c1aac470fd9d638adb1e5e055217ac	not-for-merge	branch 'id-type-cleanup' of https://github.com/vapor/mysql-driver
+ceb13670d59da4af3cd8bdfa1872a2529e35fc0e	not-for-merge	branch 'master' of https://github.com/vapor/mysql-driver
+a4ff5ccde3af0a02a46b0fa8e745150758fe33fe	not-for-merge	branch 'two' of https://github.com/vapor/mysql-driver
+3d0ae92b3373da31ad4c50e0debcd8664ee38458	not-for-merge	'refs/pull/1/head' of https://github.com/vapor/mysql-driver
+816ea1435dc4ed4c1bcda008b6905f15733e805b	not-for-merge	'refs/pull/10/head' of https://github.com/vapor/mysql-driver
+0c9d4cc7e4fea829f8861ae640c1e9be0c7c2b38	not-for-merge	'refs/pull/10/merge' of https://github.com/vapor/mysql-driver
+1b31c315b78155498c0aa275ba87e5b34d6801db	not-for-merge	'refs/pull/11/head' of https://github.com/vapor/mysql-driver
+c7fe3917b01dbab460849d531e56a6b9e0c4c393	not-for-merge	'refs/pull/11/merge' of https://github.com/vapor/mysql-driver
+ae733e45d84fed29cd5fea4d35e4a18120ef3818	not-for-merge	'refs/pull/12/head' of https://github.com/vapor/mysql-driver
+a32807ac25d15897f506a5fffa415287209b72d8	not-for-merge	'refs/pull/13/head' of https://github.com/vapor/mysql-driver
+b65153454c52d015b2b74b33e92e1b9130f4d419	not-for-merge	'refs/pull/14/head' of https://github.com/vapor/mysql-driver
+68fccc8cb75498a172e90486b31a930c0d2e290a	not-for-merge	'refs/pull/15/head' of https://github.com/vapor/mysql-driver
+d682488aceb0b5b41edf8f77798babd7a3da8e3a	not-for-merge	'refs/pull/15/merge' of https://github.com/vapor/mysql-driver
+3b08887df2f1791b510689d951805ae0bf1c1f89	not-for-merge	'refs/pull/16/head' of https://github.com/vapor/mysql-driver
+049794e509ac994f055d794cff26c477b6198d68	not-for-merge	'refs/pull/16/merge' of https://github.com/vapor/mysql-driver
+03b31febf3fe9b2a22a28d8ffad1f4da71b4b772	not-for-merge	'refs/pull/17/head' of https://github.com/vapor/mysql-driver
+748d178368e93e68152301af91ac7d50db09f762	not-for-merge	'refs/pull/17/merge' of https://github.com/vapor/mysql-driver
+4b1b068d937b6336bb8125cab90b376800007ae7	not-for-merge	'refs/pull/18/head' of https://github.com/vapor/mysql-driver
+764c96b4770ccd6289156a5a1ecf55af6fbaba4b	not-for-merge	'refs/pull/19/head' of https://github.com/vapor/mysql-driver
+66a2a5a60575a4af29d8898e9949cf8b4cbd54bd	not-for-merge	'refs/pull/2/head' of https://github.com/vapor/mysql-driver
+37c64c16a5886d268cea450bcc6a81bee695fa41	not-for-merge	'refs/pull/20/head' of https://github.com/vapor/mysql-driver
+b60b0a2e9f1e5e2952806bc13fd8cef66e50eae8	not-for-merge	'refs/pull/21/head' of https://github.com/vapor/mysql-driver
+756309107e820953f3b33d0cf0f259b7a511c674	not-for-merge	'refs/pull/21/merge' of https://github.com/vapor/mysql-driver
+b2a77e47bf545f7f762c3cc7ee79689b93899042	not-for-merge	'refs/pull/22/head' of https://github.com/vapor/mysql-driver
+ccc2dbc1962af5effe6cc2224f11c3309669bf50	not-for-merge	'refs/pull/22/merge' of https://github.com/vapor/mysql-driver
+fcf4e624f3fbee70eb46f3335303a1426a003544	not-for-merge	'refs/pull/24/head' of https://github.com/vapor/mysql-driver
+21d436631ff06c0e58b9496971ffbbaf155822d8	not-for-merge	'refs/pull/25/head' of https://github.com/vapor/mysql-driver
+6a2ba5b186b8046f93f5f686b605314473d65a83	not-for-merge	'refs/pull/26/head' of https://github.com/vapor/mysql-driver
+c5114daf3b9adf48223fb27a3a28184449c07c49	not-for-merge	'refs/pull/27/head' of https://github.com/vapor/mysql-driver
+3e364d440eea95bb52520993914ea92292d19309	not-for-merge	'refs/pull/28/head' of https://github.com/vapor/mysql-driver
+cd1aa1c6320344ce81d7648b4a3ce8d503840db7	not-for-merge	'refs/pull/28/merge' of https://github.com/vapor/mysql-driver
+5aa615d0eed2ba379756bb6d87a29e9ce4ecef70	not-for-merge	'refs/pull/29/head' of https://github.com/vapor/mysql-driver
+8c0eb4e40577db1f58499b0a16700e394c7a5a70	not-for-merge	'refs/pull/29/merge' of https://github.com/vapor/mysql-driver
+c3115a1641019a18e2e9c2cebd2e36ff24059570	not-for-merge	'refs/pull/3/head' of https://github.com/vapor/mysql-driver
+36602b804466bc674311ead9b694534c42488389	not-for-merge	'refs/pull/3/merge' of https://github.com/vapor/mysql-driver
+1870c41c608aa90ba41749ab12ba1ee5637e7b7f	not-for-merge	'refs/pull/30/head' of https://github.com/vapor/mysql-driver
+a77588f09105cb2bb24ce3ad88ee151daf42f886	not-for-merge	'refs/pull/31/head' of https://github.com/vapor/mysql-driver
+0cd712a3514783c872f8916b9c17d8413d1c9420	not-for-merge	'refs/pull/32/head' of https://github.com/vapor/mysql-driver
+5e9bd94b703110cbd643b4f5af9b3536ae279be8	not-for-merge	'refs/pull/33/head' of https://github.com/vapor/mysql-driver
+4671d0e6f236cb877eff21c7b0a4a4bf7d3a295b	not-for-merge	'refs/pull/35/head' of https://github.com/vapor/mysql-driver
+c5f7c22f2e43a9c6f86b67fa75dda7a3f1b8b5bb	not-for-merge	'refs/pull/36/head' of https://github.com/vapor/mysql-driver
+f6ee7ae5f29736cacd41c42e3daa9f72771f9907	not-for-merge	'refs/pull/37/head' of https://github.com/vapor/mysql-driver
+a4ff5ccde3af0a02a46b0fa8e745150758fe33fe	not-for-merge	'refs/pull/38/head' of https://github.com/vapor/mysql-driver
+21fc0cd9dcc6d2a5e278f1bd19092b8069faf632	not-for-merge	'refs/pull/4/head' of https://github.com/vapor/mysql-driver
+53b8f3fca5ac67bafa2ed996563b2c73dcb6e5fb	not-for-merge	'refs/pull/40/head' of https://github.com/vapor/mysql-driver
+e4c26268dd182fc1983bf909d912e612d97c73df	not-for-merge	'refs/pull/42/head' of https://github.com/vapor/mysql-driver
+aaacb286e521b622ea90714e1537d297103e33be	not-for-merge	'refs/pull/44/head' of https://github.com/vapor/mysql-driver
+23f98e146d5525edf27560cf816f148202535e62	not-for-merge	'refs/pull/45/head' of https://github.com/vapor/mysql-driver
+750c6113cd5af97adfde3fa8767d261bb996f46a	not-for-merge	'refs/pull/45/merge' of https://github.com/vapor/mysql-driver
+af02c9c482563b89c8e976f9ba521b0cc4b2ece5	not-for-merge	'refs/pull/48/head' of https://github.com/vapor/mysql-driver
+2aad33f589aef954830b6c5f013fb74512c58e15	not-for-merge	'refs/pull/49/head' of https://github.com/vapor/mysql-driver
+48c660fbca372a1ce3d33d5975bcc91d15717fc8	not-for-merge	'refs/pull/49/merge' of https://github.com/vapor/mysql-driver
+feec4c4e2f20209f2796250a339d3005ff761e66	not-for-merge	'refs/pull/5/head' of https://github.com/vapor/mysql-driver
+2958e2b0a5c336603db22c6883ec7647ddb44681	not-for-merge	'refs/pull/5/merge' of https://github.com/vapor/mysql-driver
+9f8a11dc9225ef2e14d6b55ac4d53d340638ca6b	not-for-merge	'refs/pull/50/head' of https://github.com/vapor/mysql-driver
+4422522069eec2d86bd8ca98e8c0361d01241e6e	not-for-merge	'refs/pull/51/head' of https://github.com/vapor/mysql-driver
+a667c19681fb3821863efafe86f5050a1449fc35	not-for-merge	'refs/pull/51/merge' of https://github.com/vapor/mysql-driver
+6d5890d455c1aac470fd9d638adb1e5e055217ac	not-for-merge	'refs/pull/53/head' of https://github.com/vapor/mysql-driver
+06fa9b889877f2b2dc0562cb6041c5adbccc6113	not-for-merge	'refs/pull/53/merge' of https://github.com/vapor/mysql-driver
+bee65e4d6ccb8bfa1f7e86c7a7b7677d1166d471	not-for-merge	'refs/pull/54/head' of https://github.com/vapor/mysql-driver
+77304150d10cd402cf4d0c93aaa495506efa282a	not-for-merge	'refs/pull/55/head' of https://github.com/vapor/mysql-driver
+3da7e9930e2ee6e36fe99f7e26adb0787dde61b6	not-for-merge	'refs/pull/6/head' of https://github.com/vapor/mysql-driver
+28ce0c530742b339a1a57f0c374c53aad7fdf971	not-for-merge	'refs/pull/7/head' of https://github.com/vapor/mysql-driver
+8ec856f0df8e5b8cbed3091a671fd2224afd2d5d	not-for-merge	'refs/pull/8/head' of https://github.com/vapor/mysql-driver
+538c1dcf994be04f7697e74c26a47b2b7167d5ad	not-for-merge	'refs/pull/9/head' of https://github.com/vapor/mysql-driver
+832565f9b000a77d2bb9fbfa27ebac02697e9fb4	not-for-merge	'refs/pull/9/merge' of https://github.com/vapor/mysql-driver
+0eb3b4de8a69b0e5e426f6bbc790a9e1e56b948b	not-for-merge	tag '0.0.0' of https://github.com/vapor/mysql-driver
+7d3ff07593091122e5397f9a1de58ef64ef6150a	not-for-merge	tag '0.1.0' of https://github.com/vapor/mysql-driver
+6d220377e3e470cec11e64892227676b3bb021d0	not-for-merge	tag '0.1.1' of https://github.com/vapor/mysql-driver
+2784fbeb8ba40a7356ab8f0a2f048bb5a742026c	not-for-merge	tag '0.1.2' of https://github.com/vapor/mysql-driver
+3cbe4f9190c5331787dabd8bfc897fcaa686acb2	not-for-merge	tag '0.1.3' of https://github.com/vapor/mysql-driver
+0626fc564ea232a2597c78b5677e678751adb50e	not-for-merge	tag '0.2.0' of https://github.com/vapor/mysql-driver
+92556a04350679b2325c6cc03959fb6538a510b3	not-for-merge	tag '0.3.0' of https://github.com/vapor/mysql-driver
+c2e42f82fa0541dfe081c2f53e58de34412f5dd3	not-for-merge	tag '0.4.0' of https://github.com/vapor/mysql-driver
+f75eb6f1e57b07ed11b0199f4a619675f3b33b07	not-for-merge	tag '0.4.1' of https://github.com/vapor/mysql-driver
+561f9f601478e42f056516e9e704bfb03220eaf6	not-for-merge	tag '0.5.0' of https://github.com/vapor/mysql-driver
+bfb874ce0848f917122cb3a50ece5ea76dc8a926	not-for-merge	tag '0.6.0' of https://github.com/vapor/mysql-driver
+fcb269bfadc2ca79b1fee7cefc2c97e658f377b7	not-for-merge	tag '1.0.0' of https://github.com/vapor/mysql-driver
+123345811664180bdfc1e91e534b1052175f84c7	not-for-merge	tag '1.0.1' of https://github.com/vapor/mysql-driver
+cb261cc4e559432287038298f8c605bdaba28824	not-for-merge	tag '1.1.0' of https://github.com/vapor/mysql-driver
+6dafd3b240b46401db7e4780b6e1fb58c8fc3a1c	not-for-merge	tag '1.1.1' of https://github.com/vapor/mysql-driver
+75d9b938357cc29ce30e2066bd9d7f21a2ca272b	not-for-merge	tag '1.1.2' of https://github.com/vapor/mysql-driver
+0075fe83f834e3afcd9f521e85e6576241648fad	not-for-merge	tag '1.2.0' of https://github.com/vapor/mysql-driver
+f1a752626229270b6886d88d4feb4df639a140ca	not-for-merge	tag '2.0.0' of https://github.com/vapor/mysql-driver
+809d7735c641ef63080a4d0536c50f94a1b1f115	not-for-merge	tag '2.0.0-alpha.1' of https://github.com/vapor/mysql-driver
+64225ca169a24111a7be98c9a728394fd03260e9	not-for-merge	tag '2.0.0-alpha.2' of https://github.com/vapor/mysql-driver
+85ffe077e888747697db897c1e9b4418ce7c6eb0	not-for-merge	tag '2.0.0-alpha.3' of https://github.com/vapor/mysql-driver
+dbc0154d8a2fc48d82cab2eb096457643fbd0d55	not-for-merge	tag '2.0.0-alpha.4' of https://github.com/vapor/mysql-driver
+0304b55f0c9656f1bb519c996910429113f0ac98	not-for-merge	tag '2.0.0-alpha.5' of https://github.com/vapor/mysql-driver
+6a3b89ac086844e7559314cd08466bca743926c0	not-for-merge	tag '2.0.0-beta.1' of https://github.com/vapor/mysql-driver
+7e630e8c9fe3168d196f5a46d53c600e7b8f8e9e	not-for-merge	tag '2.0.0-beta.10' of https://github.com/vapor/mysql-driver
+a68b676ba83c97be236103c12128765ea76b16b4	not-for-merge	tag '2.0.0-beta.11' of https://github.com/vapor/mysql-driver
+59e65ea54db444e4fc5b58e424a0f1a9e1506eb6	not-for-merge	tag '2.0.0-beta.12' of https://github.com/vapor/mysql-driver
+6051d8916f93a99fedf57a603159a283686d2bea	not-for-merge	tag '2.0.0-beta.2' of https://github.com/vapor/mysql-driver
+a6b1251030ea35fbe3b3044659c99f907aa876be	not-for-merge	tag '2.0.0-beta.3' of https://github.com/vapor/mysql-driver
+cb2b7e76afe62fb605644cb1bf7242b30a75881a	not-for-merge	tag '2.0.0-beta.4' of https://github.com/vapor/mysql-driver
+2941ec540944f3652cd50eeab0323373577e76b9	not-for-merge	tag '2.0.0-beta.5' of https://github.com/vapor/mysql-driver
+fa4bbb404c51dc723ebf402b4f8e38b7893fc438	not-for-merge	tag '2.0.0-beta.6' of https://github.com/vapor/mysql-driver
+5d8c65ff04666d0e8d157b22e418645ce26a45b8	not-for-merge	tag '2.0.0-beta.7' of https://github.com/vapor/mysql-driver
+b0574970146a983cd82a6a73fa807e9f3d516f12	not-for-merge	tag '2.0.0-beta.8' of https://github.com/vapor/mysql-driver
+4b01463218908ed16db62f7251e38f7bc22b81d2	not-for-merge	tag '2.0.0-beta.9' of https://github.com/vapor/mysql-driver
+c55ed27268c9b937bbf4e78994ac0d3817207e3c	not-for-merge	tag '2.0.1' of https://github.com/vapor/mysql-driver
+bf16cc056a57a1d8c4fb25add22666112c1206e4	not-for-merge	tag '2.0.2' of https://github.com/vapor/mysql-driver
+2f6eead84aabb265a4dae3e07083dd1b7eaa262b	not-for-merge	tag '2.0.3' of https://github.com/vapor/mysql-driver

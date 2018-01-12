@@ -1,0 +1,16 @@
+<div class="chatlogs" id="chatlogs">
+#loop(messages, "message") {
+#equal(message.owner, "owner") {
+<div class="chat self">
+<h4 class="chat-username">#(message.userName)</h4>
+<p class="chat-message">#(message.messageText)</p>
+</div>
+} ##equal(message.owner, "notOwner") {
+<div class="chat friend">
+<h4 class="chat-username"> #(message.userName)</h4>
+<p class="chat-message"> #(message.messageText)</p>
+</div>
+}
+
+}
+</div>

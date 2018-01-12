@@ -1,0 +1,632 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["5MySQL4BindC", ""]
+- ["s6UInt32V", ""]
+- ["5MySQL4BindC", "value"]
+- ["s6UInt32V", "pad"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "/"
+- !private "=="
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bind"
+- !private "Bool"
+- !private "Bytes"
+- !private "DateFormatter"
+- !private "Double"
+- !private "Float"
+- !private "FloatLiteralType"
+- "Int"
+- !private "Int16"
+- !private "Int32"
+- !private "Int64"
+- !private "Int8"
+- !private "IntegerLiteralType"
+- !private "JSON"
+- !private "MYSQL_TIME"
+- !private "MYSQL_TYPE_BIT"
+- !private "MYSQL_TYPE_BLOB"
+- !private "MYSQL_TYPE_DATE"
+- !private "MYSQL_TYPE_DATETIME"
+- !private "MYSQL_TYPE_DECIMAL"
+- !private "MYSQL_TYPE_DOUBLE"
+- !private "MYSQL_TYPE_ENUM"
+- !private "MYSQL_TYPE_FLOAT"
+- !private "MYSQL_TYPE_JSON"
+- !private "MYSQL_TYPE_LONG"
+- !private "MYSQL_TYPE_LONGLONG"
+- !private "MYSQL_TYPE_NEWDECIMAL"
+- !private "MYSQL_TYPE_SET"
+- !private "MYSQL_TYPE_SHORT"
+- !private "MYSQL_TYPE_STRING"
+- !private "MYSQL_TYPE_TIME"
+- !private "MYSQL_TYPE_TIMESTAMP"
+- !private "MYSQL_TYPE_TINY"
+- !private "MYSQL_TYPE_VAR_STRING"
+- !private "MemoryLayout"
+- !private "MySQLContext"
+- "String"
+- !private "StringLiteralType"
+- "StructuredData"
+- !private "UInt"
+- !private "UInt16"
+- "UInt32"
+- !private "UInt64"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutableBufferPointer"
+- !private "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "characters"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "makeString"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "description"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s13BinaryIntegerP", "pad"]
+- !private ["5MySQL4BindC", "Array"]
+- !private ["5MySQL4BindC", "Bool"]
+- !private ["5MySQL4BindC", "Bytes"]
+- !private ["5MySQL4BindC", "DateFormatter"]
+- !private ["5MySQL4BindC", "Double"]
+- !private ["5MySQL4BindC", "Float"]
+- !private ["5MySQL4BindC", "Int"]
+- !private ["5MySQL4BindC", "Int16"]
+- !private ["5MySQL4BindC", "Int32"]
+- !private ["5MySQL4BindC", "Int64"]
+- !private ["5MySQL4BindC", "Int8"]
+- !private ["5MySQL4BindC", "JSON"]
+- !private ["5MySQL4BindC", "MYSQL_TIME"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_BIT"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_BLOB"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_DATE"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_DATETIME"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_DECIMAL"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_DOUBLE"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_ENUM"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_FLOAT"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_JSON"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_LONG"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_LONGLONG"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_NEWDECIMAL"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_SET"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_SHORT"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_STRING"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_TIME"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_TIMESTAMP"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_TINY"]
+- !private ["5MySQL4BindC", "MYSQL_TYPE_VAR_STRING"]
+- !private ["5MySQL4BindC", "MemoryLayout"]
+- !private ["5MySQL4BindC", "MySQLContext"]
+- ["5MySQL4BindC", "StructuredData"]
+- !private ["5MySQL4BindC", "UInt"]
+- !private ["5MySQL4BindC", "UInt16"]
+- !private ["5MySQL4BindC", "UInt32"]
+- !private ["5MySQL4BindC", "UInt64"]
+- !private ["5MySQL4BindC", "UInt8"]
+- !private ["5MySQL4BindC", "UnsafeMutableBufferPointer"]
+- !private ["5MySQL4BindC", "UnsafeMutablePointer"]
+- !private ["5MySQL4BindC", "UnsafeMutableRawPointer"]
+- !private ["5MySQL4BindC", "cBind"]
+- !private ["5MySQL4BindC", "print"]
+- ["5MySQL4BindC", "value"]
+- !private ["5MySQL4BindC", "variant"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["4Bits16BytesConvertibleP", "characters"]
+- !private ["4Bits16BytesConvertibleP", "description"]
+- !private ["4Bits16BytesConvertibleP", "init"]
+- !private ["4Bits16BytesConvertibleP", "makeNode"]
+- !private ["4Bits16BytesConvertibleP", "pad"]
+- !private ["4Bits18BytesInitializableP", "characters"]
+- !private ["4Bits18BytesInitializableP", "description"]
+- !private ["4Bits18BytesInitializableP", "init"]
+- !private ["4Bits18BytesInitializableP", "makeNode"]
+- !private ["4Bits18BytesInitializableP", "pad"]
+- !private ["4Bits18BytesRepresentableP", "characters"]
+- !private ["4Bits18BytesRepresentableP", "description"]
+- !private ["4Bits18BytesRepresentableP", "init"]
+- !private ["4Bits18BytesRepresentableP", "makeNode"]
+- !private ["4Bits18BytesRepresentableP", "pad"]
+- !private ["s7CVarArgP", "characters"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mysql"]
+- !private ["s7CVarArgP", "pad"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["SS13CharacterViewV", "count"]
+- !private ["s10CollectionP", "characters"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "makeString"]
+- !private ["s10ComparableP", "bindMemory"]
+- !private ["s10ComparableP", "characters"]
+- !private ["s10ComparableP", "description"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "load"]
+- !private ["s10ComparableP", "pad"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["4Node7ContextP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "characters"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "makeString"]
+- !private ["s28CustomDebugStringConvertibleP", "mysql"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bindMemory"]
+- !private ["s29CustomPlaygroundQuickLookableP", "characters"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "load"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "bindMemory"]
+- !private ["s17CustomReflectableP", "characters"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "load"]
+- !private ["s17CustomReflectableP", "pad"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "bytes"]
+- !private ["s23CustomStringConvertibleP", "characters"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "double"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "mysql"]
+- !private ["s23CustomStringConvertibleP", "null"]
+- !private ["s23CustomStringConvertibleP", "number"]
+- !private ["s23CustomStringConvertibleP", "pad"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "uint"]
+- !private ["So13DateFormatterC", "date"]
+- !private ["So13DateFormatterC", "mysql"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "characters"]
+- !private ["s9DecodableP", "description"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "pad"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "characters"]
+- !private ["s9EncodableP", "description"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "pad"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bindMemory"]
+- !private ["s9EquatableP", "bool"]
+- !private ["s9EquatableP", "bytes"]
+- !private ["s9EquatableP", "characters"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "double"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "int"]
+- !private ["s9EquatableP", "load"]
+- !private ["s9EquatableP", "makeNode"]
+- !private ["s9EquatableP", "mysql"]
+- !private ["s9EquatableP", "null"]
+- !private ["s9EquatableP", "number"]
+- !private ["s9EquatableP", "pad"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "uint"]
+- !private ["s9EquatableP", "wrapped"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeNode"]
+- !private ["s25ExpressibleByArrayLiteralP", "wrapped"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "makeNode"]
+- !private ["s27ExpressibleByBooleanLiteralP", "wrapped"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "makeNode"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "wrapped"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "characters"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "makeNode"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "wrapped"]
+- !private ["s25ExpressibleByFloatLiteralP", "double"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "int"]
+- !private ["s25ExpressibleByFloatLiteralP", "makeNode"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint"]
+- !private ["s25ExpressibleByFloatLiteralP", "wrapped"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "makeNode"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pad"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint"]
+- !private ["s27ExpressibleByIntegerLiteralP", "wrapped"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "makeNode"]
+- !private ["s23ExpressibleByNilLiteralP", "wrapped"]
+- !private ["s26ExpressibleByStringLiteralP", "characters"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "makeNode"]
+- !private ["s26ExpressibleByStringLiteralP", "wrapped"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "characters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "makeNode"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "wrapped"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "pad"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["So9FormatterC", "date"]
+- !private ["So9FormatterC", "mysql"]
+- !private ["4Node14FuzzyConverterP", "init"]
+- !private ["4Node14FuzzyConverterP", "makeNode"]
+- !private ["4Node14FuzzyConverterP", "wrapped"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bindMemory"]
+- !private ["s8HashableP", "characters"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "description"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "load"]
+- !private ["s8HashableP", "mysql"]
+- !private ["s8HashableP", "pad"]
+- !private ["s8HashableP", "pointee"]
+- !private ["Si", "init"]
+- !private ["4JSONAAV", "init"]
+- !private ["4JSONAAV", "makeNode"]
+- !private ["4JSON17JSONRepresentableP", "init"]
+- !private ["4JSON17JSONRepresentableP", "makeNode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "characters"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "pad"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "characters"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "makeString"]
+- !private ["5MySQL0A10SQLContextC", "deinit"]
+- !private ["5MySQL0A10SQLContextC", "shared"]
+- !private ["So8NSCodingP", "characters"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "mysql"]
+- !private ["So9NSCopyingP", "characters"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "mysql"]
+- !private ["So21NSItemProviderReadingP", "characters"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "characters"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "characters"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "characters"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "mysql"]
+- !private ["So16NSObjectProtocolP", "characters"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "mysql"]
+- !private ["So14NSSecureCodingP", "characters"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "characters"]
+- !private ["So8NSStringC", "init"]
+- !private ["4NodeAAV", "wrapped"]
+- !private ["4Node0A28ConvertibleFloatingPointTypeP", "init"]
+- !private ["4Node0A13InitializableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13InitializableP", "bool"]
+- !private ["4Node0A13InitializableP", "bytes"]
+- !private ["4Node0A13InitializableP", "characters"]
+- !private ["4Node0A13InitializableP", "date"]
+- !private ["4Node0A13InitializableP", "description"]
+- !private ["4Node0A13InitializableP", "init"]
+- !private ["4Node0A13InitializableP", "makeNode"]
+- !private ["4Node0A13InitializableP", "null"]
+- !private ["4Node0A13InitializableP", "number"]
+- !private ["4Node0A13InitializableP", "pad"]
+- !private ["4Node0A13InitializableP", "string"]
+- !private ["4Node0A13InitializableP", "wrapped"]
+- !private ["4Node0A13RepresentableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13RepresentableP", "bool"]
+- !private ["4Node0A13RepresentableP", "bytes"]
+- !private ["4Node0A13RepresentableP", "characters"]
+- !private ["4Node0A13RepresentableP", "date"]
+- !private ["4Node0A13RepresentableP", "description"]
+- !private ["4Node0A13RepresentableP", "init"]
+- !private ["4Node0A13RepresentableP", "makeNode"]
+- !private ["4Node0A13RepresentableP", "null"]
+- !private ["4Node0A13RepresentableP", "number"]
+- !private ["4Node0A13RepresentableP", "pad"]
+- !private ["4Node0A13RepresentableP", "string"]
+- !private ["4Node0A13RepresentableP", "wrapped"]
+- !private ["4Node14StructuredDataO6NumberO", "double"]
+- !private ["4Node14StructuredDataO6NumberO", "int"]
+- !private ["4Node14StructuredDataO6NumberO", "uint"]
+- !private ["s7NumericP", "description"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "pad"]
+- !private ["13PathIndexableAAP", "bool"]
+- !private ["13PathIndexableAAP", "bytes"]
+- !private ["13PathIndexableAAP", "date"]
+- !private ["13PathIndexableAAP", "init"]
+- !private ["13PathIndexableAAP", "makeNode"]
+- !private ["13PathIndexableAAP", "null"]
+- !private ["13PathIndexableAAP", "number"]
+- !private ["13PathIndexableAAP", "string"]
+- !private ["13PathIndexableAAP", "wrapped"]
+- !private ["13PathIndexable0A7IndexerP", "characters"]
+- !private ["13PathIndexable0A7IndexerP", "init"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "makeString"]
+- !private ["s26RangeReplaceableCollectionP", "characters"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "characters"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "makeString"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "bindMemory"]
+- !private ["s10StrideableP", "description"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "load"]
+- !private ["s10StrideableP", "pad"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["SS", "characters"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "characters"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["4Node14StructuredDataO", "bool"]
+- !private ["4Node14StructuredDataO", "bytes"]
+- !private ["4Node14StructuredDataO", "date"]
+- !private ["4Node14StructuredDataO", "null"]
+- !private ["4Node14StructuredDataO", "number"]
+- !private ["4Node14StructuredDataO", "string"]
+- !private ["4Node21StructuredDataWrapperP", "init"]
+- !private ["4Node21StructuredDataWrapperP", "makeNode"]
+- !private ["4Node21StructuredDataWrapperP", "wrapped"]
+- !private ["s16TextOutputStreamP", "characters"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "characters"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Su", "init"]
+- ["s6UInt32V", "Int"]
+- ["s6UInt32V", "String"]
+- !private ["s6UInt32V", "description"]
+- ["s6UInt32V", "pad"]
+- !private ["Sr", "init"]
+- !private ["Sr", "makeString"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "bindMemory"]
+- !private ["Sv", "load"]
+- !private ["s15UnsignedIntegerP", "description"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s15UnsignedIntegerP", "pad"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s23_BidirectionalIndexableP", "characters"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "makeString"]
+- !private ["s18_BitwiseOperationsP", "description"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "pad"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "characters"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pad"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "characters"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "characters"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "characters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "characters"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "characters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "characters"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "makeString"]
+- !private ["s14_IndexableBaseP", "characters"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "makeString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mysql"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "makeString"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "characters"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pad"]
+- !private ["s8_PointerP", "bindMemory"]
+- !private ["s8_PointerP", "load"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "makeString"]
+- !private ["s26_RangeReplaceableIndexableP", "characters"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "bindMemory"]
+- !private ["s11_StrideableP", "description"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "load"]
+- !private ["s11_StrideableP", "pad"]
+- !private ["s11_StrideableP", "pointee"]
+- !private ["s16_SwiftStringViewP", "characters"]
+- !private ["s16_SwiftStringViewP", "count"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["SC16enum_field_typesV", "deinit"]
+- !private ["SC13st_mysql_bindV", "buffer"]
+- !private ["SC13st_mysql_bindV", "is_null"]
+- !private ["SC13st_mysql_bindV", "is_unsigned"]
+- !private ["SC13st_mysql_bindV", "length"]
+- !private ["SC13st_mysql_timeV", "day"]
+- !private ["SC13st_mysql_timeV", "hour"]
+- !private ["SC13st_mysql_timeV", "minute"]
+- !private ["SC13st_mysql_timeV", "month"]
+- !private ["SC13st_mysql_timeV", "second"]
+- !private ["SC13st_mysql_timeV", "year"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- "5MySQL4BindC"
+- !private "Sb"
+- !private "4Bits16BytesConvertibleP"
+- !private "4Bits18BytesInitializableP"
+- !private "4Bits18BytesRepresentableP"
+- !private "s7CVarArgP"
+- !private "SS13CharacterViewV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "4Node7ContextP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "So13DateFormatterC"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "So9FormatterC"
+- !private "4Node14FuzzyConverterP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "4JSONAAV"
+- !private "4JSON17JSONRepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "5MySQL0A10SQLContextC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "4NodeAAV"
+- !private "4Node0A28ConvertibleFloatingPointTypeP"
+- !private "4Node0A13InitializableP"
+- !private "4Node0A13RepresentableP"
+- !private "4Node14StructuredDataO6NumberO"
+- !private "s7NumericP"
+- !private "13PathIndexableAAP"
+- !private "13PathIndexable0A7IndexerP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "4Node14StructuredDataO"
+- !private "4Node21StructuredDataWrapperP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Su"
+- "s6UInt32V"
+- !private "Sr"
+- !private "Sp"
+- !private "Sv"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+- !private "SC16enum_field_typesV"
+- !private "SC13st_mysql_bindV"
+- !private "SC13st_mysql_timeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/cmysql.git-3946220544950307782/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+interface-hash: "7c2b8efd9698264e74e95f1963abc056"

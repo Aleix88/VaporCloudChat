@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "97335a2d969401c8c5987326c8cf3beb"
+build_time: [1514993698, 43590000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql-provider.git-8249391725535204749/Sources/MySQLProvider/Driver+Config.swift": [1514993652, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql-provider.git-8249391725535204749/Sources/MySQLProvider/Droplet+MySQL.swift": [1514993652, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql-provider.git-8249391725535204749/Sources/MySQLProvider/Error.swift": [1514993652, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql-provider.git-8249391725535204749/Sources/MySQLProvider/Exports.swift": [1514993652, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql-provider.git-8249391725535204749/Sources/MySQLProvider/Provider.swift": [1514993652, 0]

@@ -1,0 +1,761 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BloguserFollowersPivot"
+- "Bloguser"
+- "Blogpost"
+provides-nominal:
+- "12FluentTester22BloguserFollowersPivotC"
+- "12FluentTester8BloguserC"
+- "12FluentTester8BlogpostC"
+provides-member:
+- ["12FluentTester0B0C", ""]
+- ["12FluentTester22BloguserFollowersPivotC", ""]
+- ["12FluentTester8BloguserC", ""]
+- ["12FluentTester8BlogpostC", ""]
+- ["12FluentTester0B0C", "testCustomKeys"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Blogpost"
+- "Bloguser"
+- "BloguserFollowersPivot"
+- "BooleanLiteralType"
+- "Children"
+- "Database"
+- "Entity"
+- "Identifier"
+- "Parent"
+- "PivotProtocol"
+- "Preparation"
+- "Row"
+- "Siblings"
+- "Storage"
+- "String"
+- "StringLiteralType"
+- "Tester"
+- !private "type"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["12FluentTester8BlogpostC", "Blogpost"]
+- ["12FluentTester8BlogpostC", "Bloguser"]
+- ["12FluentTester8BlogpostC", "Database"]
+- ["12FluentTester8BlogpostC", "Identifier"]
+- ["12FluentTester8BlogpostC", "Parent"]
+- ["12FluentTester8BlogpostC", "Row"]
+- ["12FluentTester8BlogpostC", "Storage"]
+- ["12FluentTester8BlogpostC", "String"]
+- ["12FluentTester8BlogpostC", "computedFields"]
+- ["12FluentTester8BlogpostC", "createdBy"]
+- ["12FluentTester8BlogpostC", "createdById"]
+- !private ["12FluentTester8BlogpostC", "database"]
+- ["12FluentTester8BlogpostC", "deinit"]
+- ["12FluentTester8BlogpostC", "didCreate"]
+- ["12FluentTester8BlogpostC", "didDelete"]
+- ["12FluentTester8BlogpostC", "didUpdate"]
+- ["12FluentTester8BlogpostC", "entity"]
+- ["12FluentTester8BlogpostC", "foreignIdKey"]
+- ["12FluentTester8BlogpostC", "id"]
+- ["12FluentTester8BlogpostC", "idKey"]
+- ["12FluentTester8BlogpostC", "idType"]
+- ["12FluentTester8BlogpostC", "identifier"]
+- ["12FluentTester8BlogpostC", "init"]
+- ["12FluentTester8BlogpostC", "keyNamingConvention"]
+- ["12FluentTester8BlogpostC", "makeRow"]
+- ["12FluentTester8BlogpostC", "name"]
+- !private ["12FluentTester8BlogpostC", "parent"]
+- ["12FluentTester8BlogpostC", "prepare"]
+- ["12FluentTester8BlogpostC", "revert"]
+- !private ["12FluentTester8BlogpostC", "save"]
+- ["12FluentTester8BlogpostC", "storage"]
+- ["12FluentTester8BlogpostC", "text"]
+- ["12FluentTester8BlogpostC", "updatedBy"]
+- ["12FluentTester8BlogpostC", "updatedById"]
+- ["12FluentTester8BlogpostC", "willCreate"]
+- ["12FluentTester8BlogpostC", "willDelete"]
+- ["12FluentTester8BlogpostC", "willUpdate"]
+- ["12FluentTester8BloguserC", "Blogpost"]
+- ["12FluentTester8BloguserC", "Bloguser"]
+- ["12FluentTester8BloguserC", "BloguserFollowersPivot"]
+- ["12FluentTester8BloguserC", "Children"]
+- ["12FluentTester8BloguserC", "Database"]
+- ["12FluentTester8BloguserC", "Row"]
+- ["12FluentTester8BloguserC", "Siblings"]
+- ["12FluentTester8BloguserC", "Storage"]
+- ["12FluentTester8BloguserC", "String"]
+- !private ["12FluentTester8BloguserC", "assertExists"]
+- !private ["12FluentTester8BloguserC", "children"]
+- ["12FluentTester8BloguserC", "computedFields"]
+- ["12FluentTester8BloguserC", "createdPosts"]
+- !private ["12FluentTester8BloguserC", "database"]
+- ["12FluentTester8BloguserC", "deinit"]
+- ["12FluentTester8BloguserC", "didCreate"]
+- ["12FluentTester8BloguserC", "didDelete"]
+- ["12FluentTester8BloguserC", "didUpdate"]
+- ["12FluentTester8BloguserC", "entity"]
+- ["12FluentTester8BloguserC", "followers"]
+- ["12FluentTester8BloguserC", "following"]
+- ["12FluentTester8BloguserC", "foreignIdKey"]
+- ["12FluentTester8BloguserC", "id"]
+- ["12FluentTester8BloguserC", "idKey"]
+- ["12FluentTester8BloguserC", "idType"]
+- ["12FluentTester8BloguserC", "identifier"]
+- ["12FluentTester8BloguserC", "init"]
+- ["12FluentTester8BloguserC", "keyNamingConvention"]
+- ["12FluentTester8BloguserC", "makeRow"]
+- ["12FluentTester8BloguserC", "name"]
+- ["12FluentTester8BloguserC", "prepare"]
+- ["12FluentTester8BloguserC", "revert"]
+- !private ["12FluentTester8BloguserC", "save"]
+- !private ["12FluentTester8BloguserC", "siblings"]
+- ["12FluentTester8BloguserC", "storage"]
+- ["12FluentTester8BloguserC", "updatedPosts"]
+- ["12FluentTester8BloguserC", "willCreate"]
+- ["12FluentTester8BloguserC", "willDelete"]
+- ["12FluentTester8BloguserC", "willUpdate"]
+- ["12FluentTester22BloguserFollowersPivotC", "Bloguser"]
+- ["12FluentTester22BloguserFollowersPivotC", "Database"]
+- ["12FluentTester22BloguserFollowersPivotC", "Identifier"]
+- ["12FluentTester22BloguserFollowersPivotC", "Left"]
+- ["12FluentTester22BloguserFollowersPivotC", "Right"]
+- ["12FluentTester22BloguserFollowersPivotC", "Row"]
+- ["12FluentTester22BloguserFollowersPivotC", "Storage"]
+- ["12FluentTester22BloguserFollowersPivotC", "attach"]
+- ["12FluentTester22BloguserFollowersPivotC", "computedFields"]
+- !private ["12FluentTester22BloguserFollowersPivotC", "database"]
+- ["12FluentTester22BloguserFollowersPivotC", "deinit"]
+- ["12FluentTester22BloguserFollowersPivotC", "detach"]
+- ["12FluentTester22BloguserFollowersPivotC", "didCreate"]
+- ["12FluentTester22BloguserFollowersPivotC", "didDelete"]
+- ["12FluentTester22BloguserFollowersPivotC", "didUpdate"]
+- ["12FluentTester22BloguserFollowersPivotC", "entity"]
+- ["12FluentTester22BloguserFollowersPivotC", "followerId"]
+- ["12FluentTester22BloguserFollowersPivotC", "followingId"]
+- ["12FluentTester22BloguserFollowersPivotC", "foreignIdKey"]
+- ["12FluentTester22BloguserFollowersPivotC", "id"]
+- ["12FluentTester22BloguserFollowersPivotC", "idKey"]
+- ["12FluentTester22BloguserFollowersPivotC", "idType"]
+- ["12FluentTester22BloguserFollowersPivotC", "identifier"]
+- ["12FluentTester22BloguserFollowersPivotC", "init"]
+- ["12FluentTester22BloguserFollowersPivotC", "keyNamingConvention"]
+- ["12FluentTester22BloguserFollowersPivotC", "leftIdKey"]
+- ["12FluentTester22BloguserFollowersPivotC", "makeRow"]
+- ["12FluentTester22BloguserFollowersPivotC", "name"]
+- ["12FluentTester22BloguserFollowersPivotC", "prepare"]
+- ["12FluentTester22BloguserFollowersPivotC", "related"]
+- ["12FluentTester22BloguserFollowersPivotC", "revert"]
+- ["12FluentTester22BloguserFollowersPivotC", "rightIdKey"]
+- ["12FluentTester22BloguserFollowersPivotC", "storage"]
+- !private ["12FluentTester22BloguserFollowersPivotC", "type"]
+- ["12FluentTester22BloguserFollowersPivotC", "willCreate"]
+- ["12FluentTester22BloguserFollowersPivotC", "willDelete"]
+- ["12FluentTester22BloguserFollowersPivotC", "willUpdate"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["6Fluent7BuilderP", "foreignId"]
+- !private ["6Fluent7BuilderP", "id"]
+- !private ["6Fluent7BuilderP", "parent"]
+- !private ["6Fluent7BuilderP", "string"]
+- ["4Bits16BytesConvertibleP", "init"]
+- ["4Bits18BytesInitializableP", "init"]
+- ["4Bits18BytesRepresentableP", "init"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- !private ["6Fluent8ChildrenC", "all"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["6Fluent7CreatorC", "foreignId"]
+- !private ["6Fluent7CreatorC", "id"]
+- !private ["6Fluent7CreatorC", "parent"]
+- !private ["6Fluent7CreatorC", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["6Fluent8DatabaseC", "create"]
+- !private ["6Fluent8DatabaseC", "delete"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["6Fluent6EntityP", "Bloguser"]
+- !private ["6Fluent6EntityP", "BloguserFollowersPivot"]
+- ["6Fluent6EntityP", "Left"]
+- ["6Fluent6EntityP", "Right"]
+- !private ["6Fluent6EntityP", "Row"]
+- ["6Fluent6EntityP", "Storage"]
+- !private ["6Fluent6EntityP", "assertExists"]
+- ["6Fluent6EntityP", "attach"]
+- !private ["6Fluent6EntityP", "children"]
+- ["6Fluent6EntityP", "computedFields"]
+- !private ["6Fluent6EntityP", "createdById"]
+- !private ["6Fluent6EntityP", "createdPosts"]
+- !private ["6Fluent6EntityP", "database"]
+- ["6Fluent6EntityP", "detach"]
+- ["6Fluent6EntityP", "didCreate"]
+- ["6Fluent6EntityP", "didDelete"]
+- ["6Fluent6EntityP", "didUpdate"]
+- ["6Fluent6EntityP", "entity"]
+- !private ["6Fluent6EntityP", "followerId"]
+- !private ["6Fluent6EntityP", "followers"]
+- !private ["6Fluent6EntityP", "following"]
+- !private ["6Fluent6EntityP", "followingId"]
+- ["6Fluent6EntityP", "foreignIdKey"]
+- ["6Fluent6EntityP", "id"]
+- ["6Fluent6EntityP", "idKey"]
+- ["6Fluent6EntityP", "idType"]
+- ["6Fluent6EntityP", "identifier"]
+- ["6Fluent6EntityP", "init"]
+- ["6Fluent6EntityP", "keyNamingConvention"]
+- ["6Fluent6EntityP", "leftIdKey"]
+- ["6Fluent6EntityP", "makeRow"]
+- ["6Fluent6EntityP", "name"]
+- !private ["6Fluent6EntityP", "parent"]
+- ["6Fluent6EntityP", "prepare"]
+- ["6Fluent6EntityP", "related"]
+- ["6Fluent6EntityP", "revert"]
+- ["6Fluent6EntityP", "rightIdKey"]
+- !private ["6Fluent6EntityP", "save"]
+- !private ["6Fluent6EntityP", "siblings"]
+- ["6Fluent6EntityP", "storage"]
+- !private ["6Fluent6EntityP", "text"]
+- !private ["6Fluent6EntityP", "type"]
+- !private ["6Fluent6EntityP", "updatedById"]
+- !private ["6Fluent6EntityP", "updatedPosts"]
+- ["6Fluent6EntityP", "willCreate"]
+- ["6Fluent6EntityP", "willDelete"]
+- ["6Fluent6EntityP", "willUpdate"]
+- ["6Fluent6EntityP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "get"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "set"]
+- !private ["12FluentTester0B0C5ErrorO", "deinit"]
+- !private ["12FluentTester0B0C5ErrorO", "failed"]
+- !private ["s5ErrorP", "failed"]
+- !private ["6Fluent8ExecutorP", "create"]
+- !private ["6Fluent8ExecutorP", "delete"]
+- !private ["6Fluent21ExecutorRepresentableP", "add"]
+- !private ["6Fluent21ExecutorRepresentableP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "get"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "set"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "get"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "set"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "get"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "set"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "get"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "set"]
+- !private ["s25ExpressibleByFloatLiteralP", "get"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "set"]
+- !private ["s27ExpressibleByIntegerLiteralP", "get"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "set"]
+- !private ["s23ExpressibleByNilLiteralP", "get"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "set"]
+- !private ["s26ExpressibleByStringLiteralP", "get"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "set"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "get"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "set"]
+- !private ["4Node14FuzzyConverterP", "get"]
+- !private ["4Node14FuzzyConverterP", "init"]
+- !private ["4Node14FuzzyConverterP", "set"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["4Node0A13InitializableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13InitializableP", "count"]
+- !private ["4Node0A13InitializableP", "get"]
+- ["4Node0A13InitializableP", "init"]
+- !private ["4Node0A13InitializableP", "set"]
+- !private ["4Node0A13RepresentableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13RepresentableP", "count"]
+- !private ["4Node0A13RepresentableP", "get"]
+- ["4Node0A13RepresentableP", "init"]
+- !private ["4Node0A13RepresentableP", "set"]
+- !private ["13PathIndexableAAP", "get"]
+- !private ["13PathIndexableAAP", "init"]
+- !private ["13PathIndexableAAP", "set"]
+- ["13PathIndexable0A7IndexerP", "init"]
+- ["6Fluent13PivotProtocolP", "Left"]
+- ["6Fluent13PivotProtocolP", "Right"]
+- !private ["6Fluent13PivotProtocolP", "Row"]
+- ["6Fluent13PivotProtocolP", "Storage"]
+- ["6Fluent13PivotProtocolP", "attach"]
+- ["6Fluent13PivotProtocolP", "computedFields"]
+- !private ["6Fluent13PivotProtocolP", "database"]
+- ["6Fluent13PivotProtocolP", "detach"]
+- ["6Fluent13PivotProtocolP", "didCreate"]
+- ["6Fluent13PivotProtocolP", "didDelete"]
+- ["6Fluent13PivotProtocolP", "didUpdate"]
+- ["6Fluent13PivotProtocolP", "entity"]
+- !private ["6Fluent13PivotProtocolP", "followerId"]
+- !private ["6Fluent13PivotProtocolP", "followingId"]
+- ["6Fluent13PivotProtocolP", "foreignIdKey"]
+- ["6Fluent13PivotProtocolP", "id"]
+- ["6Fluent13PivotProtocolP", "idKey"]
+- ["6Fluent13PivotProtocolP", "idType"]
+- ["6Fluent13PivotProtocolP", "identifier"]
+- ["6Fluent13PivotProtocolP", "init"]
+- ["6Fluent13PivotProtocolP", "keyNamingConvention"]
+- ["6Fluent13PivotProtocolP", "leftIdKey"]
+- ["6Fluent13PivotProtocolP", "makeRow"]
+- ["6Fluent13PivotProtocolP", "name"]
+- ["6Fluent13PivotProtocolP", "prepare"]
+- ["6Fluent13PivotProtocolP", "related"]
+- ["6Fluent13PivotProtocolP", "revert"]
+- ["6Fluent13PivotProtocolP", "rightIdKey"]
+- ["6Fluent13PivotProtocolP", "storage"]
+- !private ["6Fluent13PivotProtocolP", "type"]
+- ["6Fluent13PivotProtocolP", "willCreate"]
+- ["6Fluent13PivotProtocolP", "willDelete"]
+- ["6Fluent13PivotProtocolP", "willUpdate"]
+- ["6Fluent13PivotProtocolP", ""]
+- !private ["6Fluent11PreparationP", "Bloguser"]
+- !private ["6Fluent11PreparationP", "BloguserFollowersPivot"]
+- ["6Fluent11PreparationP", "Left"]
+- ["6Fluent11PreparationP", "Right"]
+- !private ["6Fluent11PreparationP", "Row"]
+- ["6Fluent11PreparationP", "Storage"]
+- !private ["6Fluent11PreparationP", "assertExists"]
+- ["6Fluent11PreparationP", "attach"]
+- !private ["6Fluent11PreparationP", "children"]
+- ["6Fluent11PreparationP", "computedFields"]
+- !private ["6Fluent11PreparationP", "createdById"]
+- !private ["6Fluent11PreparationP", "createdPosts"]
+- !private ["6Fluent11PreparationP", "database"]
+- ["6Fluent11PreparationP", "detach"]
+- ["6Fluent11PreparationP", "didCreate"]
+- ["6Fluent11PreparationP", "didDelete"]
+- ["6Fluent11PreparationP", "didUpdate"]
+- ["6Fluent11PreparationP", "entity"]
+- !private ["6Fluent11PreparationP", "followerId"]
+- !private ["6Fluent11PreparationP", "followers"]
+- !private ["6Fluent11PreparationP", "following"]
+- !private ["6Fluent11PreparationP", "followingId"]
+- ["6Fluent11PreparationP", "foreignIdKey"]
+- ["6Fluent11PreparationP", "id"]
+- ["6Fluent11PreparationP", "idKey"]
+- ["6Fluent11PreparationP", "idType"]
+- ["6Fluent11PreparationP", "identifier"]
+- ["6Fluent11PreparationP", "init"]
+- ["6Fluent11PreparationP", "keyNamingConvention"]
+- ["6Fluent11PreparationP", "leftIdKey"]
+- ["6Fluent11PreparationP", "makeRow"]
+- ["6Fluent11PreparationP", "name"]
+- !private ["6Fluent11PreparationP", "parent"]
+- ["6Fluent11PreparationP", "prepare"]
+- ["6Fluent11PreparationP", "related"]
+- ["6Fluent11PreparationP", "revert"]
+- ["6Fluent11PreparationP", "rightIdKey"]
+- !private ["6Fluent11PreparationP", "save"]
+- !private ["6Fluent11PreparationP", "siblings"]
+- ["6Fluent11PreparationP", "storage"]
+- !private ["6Fluent11PreparationP", "text"]
+- !private ["6Fluent11PreparationP", "type"]
+- !private ["6Fluent11PreparationP", "updatedById"]
+- !private ["6Fluent11PreparationP", "updatedPosts"]
+- ["6Fluent11PreparationP", "willCreate"]
+- ["6Fluent11PreparationP", "willDelete"]
+- ["6Fluent11PreparationP", "willUpdate"]
+- ["6Fluent11PreparationP", ""]
+- !private ["6Fluent11QueryLoggerP", "create"]
+- !private ["6Fluent11QueryLoggerP", "delete"]
+- !private ["6Fluent18QueryRepresentableP", "add"]
+- !private ["6Fluent18QueryRepresentableP", "all"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["6Fluent3RowV", "get"]
+- !private ["6Fluent3RowV", "init"]
+- !private ["6Fluent3RowV", "set"]
+- !private ["6Fluent14RowConvertibleP", "Bloguser"]
+- !private ["6Fluent14RowConvertibleP", "BloguserFollowersPivot"]
+- ["6Fluent14RowConvertibleP", "Left"]
+- ["6Fluent14RowConvertibleP", "Right"]
+- !private ["6Fluent14RowConvertibleP", "Row"]
+- ["6Fluent14RowConvertibleP", "Storage"]
+- !private ["6Fluent14RowConvertibleP", "assertExists"]
+- ["6Fluent14RowConvertibleP", "attach"]
+- !private ["6Fluent14RowConvertibleP", "children"]
+- ["6Fluent14RowConvertibleP", "computedFields"]
+- !private ["6Fluent14RowConvertibleP", "createdById"]
+- !private ["6Fluent14RowConvertibleP", "createdPosts"]
+- !private ["6Fluent14RowConvertibleP", "database"]
+- ["6Fluent14RowConvertibleP", "detach"]
+- ["6Fluent14RowConvertibleP", "didCreate"]
+- ["6Fluent14RowConvertibleP", "didDelete"]
+- ["6Fluent14RowConvertibleP", "didUpdate"]
+- ["6Fluent14RowConvertibleP", "entity"]
+- !private ["6Fluent14RowConvertibleP", "followerId"]
+- !private ["6Fluent14RowConvertibleP", "followers"]
+- !private ["6Fluent14RowConvertibleP", "following"]
+- !private ["6Fluent14RowConvertibleP", "followingId"]
+- ["6Fluent14RowConvertibleP", "foreignIdKey"]
+- ["6Fluent14RowConvertibleP", "id"]
+- ["6Fluent14RowConvertibleP", "idKey"]
+- ["6Fluent14RowConvertibleP", "idType"]
+- ["6Fluent14RowConvertibleP", "identifier"]
+- ["6Fluent14RowConvertibleP", "init"]
+- ["6Fluent14RowConvertibleP", "keyNamingConvention"]
+- ["6Fluent14RowConvertibleP", "leftIdKey"]
+- ["6Fluent14RowConvertibleP", "makeRow"]
+- ["6Fluent14RowConvertibleP", "name"]
+- !private ["6Fluent14RowConvertibleP", "parent"]
+- ["6Fluent14RowConvertibleP", "prepare"]
+- ["6Fluent14RowConvertibleP", "related"]
+- ["6Fluent14RowConvertibleP", "revert"]
+- ["6Fluent14RowConvertibleP", "rightIdKey"]
+- !private ["6Fluent14RowConvertibleP", "save"]
+- !private ["6Fluent14RowConvertibleP", "siblings"]
+- ["6Fluent14RowConvertibleP", "storage"]
+- !private ["6Fluent14RowConvertibleP", "text"]
+- !private ["6Fluent14RowConvertibleP", "type"]
+- !private ["6Fluent14RowConvertibleP", "updatedById"]
+- !private ["6Fluent14RowConvertibleP", "updatedPosts"]
+- ["6Fluent14RowConvertibleP", "willCreate"]
+- ["6Fluent14RowConvertibleP", "willDelete"]
+- ["6Fluent14RowConvertibleP", "willUpdate"]
+- ["6Fluent14RowConvertibleP", ""]
+- !private ["6Fluent16RowInitializableP", "Bloguser"]
+- !private ["6Fluent16RowInitializableP", "BloguserFollowersPivot"]
+- ["6Fluent16RowInitializableP", "Left"]
+- ["6Fluent16RowInitializableP", "Right"]
+- !private ["6Fluent16RowInitializableP", "Row"]
+- ["6Fluent16RowInitializableP", "Storage"]
+- !private ["6Fluent16RowInitializableP", "assertExists"]
+- ["6Fluent16RowInitializableP", "attach"]
+- !private ["6Fluent16RowInitializableP", "children"]
+- ["6Fluent16RowInitializableP", "computedFields"]
+- !private ["6Fluent16RowInitializableP", "createdById"]
+- !private ["6Fluent16RowInitializableP", "createdPosts"]
+- !private ["6Fluent16RowInitializableP", "database"]
+- ["6Fluent16RowInitializableP", "detach"]
+- ["6Fluent16RowInitializableP", "didCreate"]
+- ["6Fluent16RowInitializableP", "didDelete"]
+- ["6Fluent16RowInitializableP", "didUpdate"]
+- ["6Fluent16RowInitializableP", "entity"]
+- !private ["6Fluent16RowInitializableP", "followerId"]
+- !private ["6Fluent16RowInitializableP", "followers"]
+- !private ["6Fluent16RowInitializableP", "following"]
+- !private ["6Fluent16RowInitializableP", "followingId"]
+- ["6Fluent16RowInitializableP", "foreignIdKey"]
+- ["6Fluent16RowInitializableP", "id"]
+- ["6Fluent16RowInitializableP", "idKey"]
+- ["6Fluent16RowInitializableP", "idType"]
+- ["6Fluent16RowInitializableP", "identifier"]
+- ["6Fluent16RowInitializableP", "init"]
+- ["6Fluent16RowInitializableP", "keyNamingConvention"]
+- ["6Fluent16RowInitializableP", "leftIdKey"]
+- ["6Fluent16RowInitializableP", "makeRow"]
+- ["6Fluent16RowInitializableP", "name"]
+- !private ["6Fluent16RowInitializableP", "parent"]
+- ["6Fluent16RowInitializableP", "prepare"]
+- ["6Fluent16RowInitializableP", "related"]
+- ["6Fluent16RowInitializableP", "revert"]
+- ["6Fluent16RowInitializableP", "rightIdKey"]
+- !private ["6Fluent16RowInitializableP", "save"]
+- !private ["6Fluent16RowInitializableP", "siblings"]
+- ["6Fluent16RowInitializableP", "storage"]
+- !private ["6Fluent16RowInitializableP", "text"]
+- !private ["6Fluent16RowInitializableP", "type"]
+- !private ["6Fluent16RowInitializableP", "updatedById"]
+- !private ["6Fluent16RowInitializableP", "updatedPosts"]
+- ["6Fluent16RowInitializableP", "willCreate"]
+- ["6Fluent16RowInitializableP", "willDelete"]
+- ["6Fluent16RowInitializableP", "willUpdate"]
+- ["6Fluent16RowInitializableP", ""]
+- !private ["6Fluent16RowRepresentableP", "Bloguser"]
+- !private ["6Fluent16RowRepresentableP", "BloguserFollowersPivot"]
+- ["6Fluent16RowRepresentableP", "Left"]
+- ["6Fluent16RowRepresentableP", "Right"]
+- !private ["6Fluent16RowRepresentableP", "Row"]
+- ["6Fluent16RowRepresentableP", "Storage"]
+- !private ["6Fluent16RowRepresentableP", "assertExists"]
+- ["6Fluent16RowRepresentableP", "attach"]
+- !private ["6Fluent16RowRepresentableP", "children"]
+- ["6Fluent16RowRepresentableP", "computedFields"]
+- !private ["6Fluent16RowRepresentableP", "createdById"]
+- !private ["6Fluent16RowRepresentableP", "createdPosts"]
+- !private ["6Fluent16RowRepresentableP", "database"]
+- ["6Fluent16RowRepresentableP", "detach"]
+- ["6Fluent16RowRepresentableP", "didCreate"]
+- ["6Fluent16RowRepresentableP", "didDelete"]
+- ["6Fluent16RowRepresentableP", "didUpdate"]
+- ["6Fluent16RowRepresentableP", "entity"]
+- !private ["6Fluent16RowRepresentableP", "followerId"]
+- !private ["6Fluent16RowRepresentableP", "followers"]
+- !private ["6Fluent16RowRepresentableP", "following"]
+- !private ["6Fluent16RowRepresentableP", "followingId"]
+- ["6Fluent16RowRepresentableP", "foreignIdKey"]
+- ["6Fluent16RowRepresentableP", "id"]
+- ["6Fluent16RowRepresentableP", "idKey"]
+- ["6Fluent16RowRepresentableP", "idType"]
+- ["6Fluent16RowRepresentableP", "identifier"]
+- ["6Fluent16RowRepresentableP", "init"]
+- ["6Fluent16RowRepresentableP", "keyNamingConvention"]
+- ["6Fluent16RowRepresentableP", "leftIdKey"]
+- ["6Fluent16RowRepresentableP", "makeRow"]
+- ["6Fluent16RowRepresentableP", "name"]
+- !private ["6Fluent16RowRepresentableP", "parent"]
+- ["6Fluent16RowRepresentableP", "prepare"]
+- ["6Fluent16RowRepresentableP", "related"]
+- ["6Fluent16RowRepresentableP", "revert"]
+- ["6Fluent16RowRepresentableP", "rightIdKey"]
+- !private ["6Fluent16RowRepresentableP", "save"]
+- !private ["6Fluent16RowRepresentableP", "siblings"]
+- ["6Fluent16RowRepresentableP", "storage"]
+- !private ["6Fluent16RowRepresentableP", "text"]
+- !private ["6Fluent16RowRepresentableP", "type"]
+- !private ["6Fluent16RowRepresentableP", "updatedById"]
+- !private ["6Fluent16RowRepresentableP", "updatedPosts"]
+- ["6Fluent16RowRepresentableP", "willCreate"]
+- ["6Fluent16RowRepresentableP", "willDelete"]
+- ["6Fluent16RowRepresentableP", "willUpdate"]
+- ["6Fluent16RowRepresentableP", ""]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["6Fluent8SiblingsC", "add"]
+- !private ["6Fluent8SiblingsC", "all"]
+- !private ["6Fluent8StorableP", "Bloguser"]
+- !private ["6Fluent8StorableP", "BloguserFollowersPivot"]
+- ["6Fluent8StorableP", "Left"]
+- ["6Fluent8StorableP", "Right"]
+- !private ["6Fluent8StorableP", "Row"]
+- ["6Fluent8StorableP", "Storage"]
+- !private ["6Fluent8StorableP", "assertExists"]
+- ["6Fluent8StorableP", "attach"]
+- !private ["6Fluent8StorableP", "children"]
+- ["6Fluent8StorableP", "computedFields"]
+- !private ["6Fluent8StorableP", "createdById"]
+- !private ["6Fluent8StorableP", "createdPosts"]
+- !private ["6Fluent8StorableP", "database"]
+- ["6Fluent8StorableP", "detach"]
+- ["6Fluent8StorableP", "didCreate"]
+- ["6Fluent8StorableP", "didDelete"]
+- ["6Fluent8StorableP", "didUpdate"]
+- ["6Fluent8StorableP", "entity"]
+- !private ["6Fluent8StorableP", "followerId"]
+- !private ["6Fluent8StorableP", "followers"]
+- !private ["6Fluent8StorableP", "following"]
+- !private ["6Fluent8StorableP", "followingId"]
+- ["6Fluent8StorableP", "foreignIdKey"]
+- ["6Fluent8StorableP", "id"]
+- ["6Fluent8StorableP", "idKey"]
+- ["6Fluent8StorableP", "idType"]
+- ["6Fluent8StorableP", "identifier"]
+- ["6Fluent8StorableP", "init"]
+- ["6Fluent8StorableP", "keyNamingConvention"]
+- ["6Fluent8StorableP", "leftIdKey"]
+- ["6Fluent8StorableP", "makeRow"]
+- ["6Fluent8StorableP", "name"]
+- !private ["6Fluent8StorableP", "parent"]
+- ["6Fluent8StorableP", "prepare"]
+- ["6Fluent8StorableP", "related"]
+- ["6Fluent8StorableP", "revert"]
+- ["6Fluent8StorableP", "rightIdKey"]
+- !private ["6Fluent8StorableP", "save"]
+- !private ["6Fluent8StorableP", "siblings"]
+- ["6Fluent8StorableP", "storage"]
+- !private ["6Fluent8StorableP", "text"]
+- !private ["6Fluent8StorableP", "type"]
+- !private ["6Fluent8StorableP", "updatedById"]
+- !private ["6Fluent8StorableP", "updatedPosts"]
+- ["6Fluent8StorableP", "willCreate"]
+- ["6Fluent8StorableP", "willDelete"]
+- ["6Fluent8StorableP", "willUpdate"]
+- ["6Fluent8StorableP", ""]
+- ["6Fluent7StorageC", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- !private ["4Node21StructuredDataWrapperP", "get"]
+- !private ["4Node21StructuredDataWrapperP", "init"]
+- !private ["4Node21StructuredDataWrapperP", "set"]
+- !private ["12FluentTester0B0C", "Blogpost"]
+- !private ["12FluentTester0B0C", "Bloguser"]
+- !private ["12FluentTester0B0C", "BloguserFollowersPivot"]
+- !private ["12FluentTester0B0C", "Error"]
+- !private ["12FluentTester0B0C", "database"]
+- ["12FluentTester0B0C", "testCustomKeys"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["6Fluent12TransactableP", "create"]
+- !private ["6Fluent12TransactableP", "delete"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- "12FluentTester8BlogpostC"
+- "12FluentTester8BloguserC"
+- "12FluentTester22BloguserFollowersPivotC"
+- !private "Sb"
+- !private "6Fluent7BuilderP"
+- "4Bits16BytesConvertibleP"
+- "4Bits18BytesInitializableP"
+- "4Bits18BytesRepresentableP"
+- "s7CVarArgP"
+- !private "6Fluent8ChildrenC"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "6Fluent7CreatorC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "6Fluent8DatabaseC"
+- "s9DecodableP"
+- "s9EncodableP"
+- "6Fluent6EntityP"
+- "s9EquatableP"
+- !private "12FluentTester0B0C5ErrorO"
+- !private "s5ErrorP"
+- !private "6Fluent8ExecutorP"
+- !private "6Fluent21ExecutorRepresentableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "4Node14FuzzyConverterP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "4Node0A13InitializableP"
+- "4Node0A13RepresentableP"
+- !private "13PathIndexableAAP"
+- "13PathIndexable0A7IndexerP"
+- "6Fluent13PivotProtocolP"
+- "6Fluent11PreparationP"
+- !private "6Fluent11QueryLoggerP"
+- !private "6Fluent18QueryRepresentableP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "6Fluent3RowV"
+- "6Fluent14RowConvertibleP"
+- "6Fluent16RowInitializableP"
+- "6Fluent16RowRepresentableP"
+- "s8SequenceP"
+- !private "6Fluent8SiblingsC"
+- "6Fluent8StorableP"
+- "6Fluent7StorageC"
+- "SS"
+- "s14StringProtocolP"
+- !private "4Node21StructuredDataWrapperP"
+- "12FluentTester0B0C"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "6Fluent12TransactableP"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "bd4f00723a29be834ef807a26380da9d"
