@@ -1,4 +1,4 @@
-<div class="chatlogs" id="chatlogs">
+<div class="chatlogs" id="chatlogs2">
 #loop(messages, "message") {
 #equal(message.owner, "owner") {
 <div class="chat self">

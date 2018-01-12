@@ -103,7 +103,6 @@ extension Droplet {
             
             return try self.view.make ("main2.leaf", Node (node: ["messages":messages]))
         }
-
         
         get ("userAuth") { req in
             return try self.view.make ("userAuth.leaf")

@@ -8,27 +8,50 @@
     
         <body>
             <div class="chatbox" id="chatbox">
-            <div class="chatlogs" id="chatlogs">
-            #loop(messages, "message") {
-                #equal(message.owner, "owner") {
-                    <div class="chat self">
-                    <h4 class="chat-username">#(message.userName)</h4>
-                    <p class="chat-message">#(message.messageText)</p>
+                <div class="chatlogs" id="chatlogs">
+                    #loop(messages, "message") {
+                        #equal(message.owner, "owner") {
+                            <div class="chat self">
+                                <h4 class="chat-username">#(message.userName)</h4>
+                                <p class="chat-message">#(message.messageText)</p>
+                            </div>
+                        } ##equal(message.owner, "notOwner") {
+                            <div class="chat friend">
+                                <h4 class="chat-username"> #(message.userName)</h4>
+                                <p class="chat-message"> #(message.messageText)</p>
+                            </div>
+                        }
+                        
+                    }
+                </div>
+                    <div class="chat-form">
+                        <input type="text">
+                        <button type="submit" id="mybutton2">Send</button>
                     </div>
-                } ##equal(message.owner, "notOwner") {
-                    <div class="chat friend">
-                    <h4 class="chat-username"> #(message.userName)</h4>
-                    <p class="chat-message"> #(message.messageText)</p>
-                    </div>
-                }
-                
-            }
+                <button type="submit" id="mybutton">Update</button>
             </div>
+            <div class="chatbox" id="chatbox">
+                <div class="chatlogs" id="chatlogs">
+                    #loop(messages, "message") {
+                    #equal(message.owner, "owner") {
+                    <div class="chat self">
+                        <h4 class="chat-username">#(message.userName)</h4>
+                        <p class="chat-message">#(message.messageText)</p>
+                    </div>
+                    } ##equal(message.owner, "notOwner") {
+                    <div class="chat friend">
+                        <h4 class="chat-username"> #(message.userName)</h4>
+                        <p class="chat-message"> #(message.messageText)</p>
+                    </div>
+                    }
+                    
+                    }
+                </div>
                 <div class="chat-form">
                     <input type="text">
-                    <button type="submit" id="mybutton2">Send</button>
-                </div>
-            <button type="submit" id="mybutton">Update</button>
+                        <button type="submit" id="mybutton2">Send</button>
+                        </div>
+                <button type="submit" id="mybutton">Update</button>
             </div>
         </body>
         
@@ -40,26 +63,32 @@
 
             var clicked = false;
             
+
             function update() {
                 var txt = $("input").val();
-        
+
                 if (txt && clicked) {
                     $.post ("http://localhost:8080/chatSecond", {messageText: txt}, function(data) {
                             $("#()chatlogs").html(data);
                             window.setTimeout(update, 3000);
+                            $("#()chatlogs2").scrollTop (450);
                             });
                     clicked = false;
                 } else {
                     $.post ("http://localhost:8080/chatSecond", function(data) {
                             $("#()chatlogs").html(data);
                             window.setTimeout(update, 3000);
+                            $("#()chatlogs2").scrollTop (450);
                             });
                 }
             }
         
-        function setClicked () {
-            clicked = true;
-        }
+        
+        
+            function setClicked () {
+                
+                clicked = true;
+            }
         
         </script>
     
