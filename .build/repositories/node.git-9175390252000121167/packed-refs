@@ -3,6 +3,7 @@
 75136ad8ae647f4c0fd06a39a8b0babb13f4f9e9 refs/heads/bye-polymorphic
 d690425044cca621699bd0c4a46cd79633a38b97 refs/heads/context-updates
 cb7f8cef69e7be2a69709589b4fdf1f46ab7ab51 refs/heads/default-init
+be448120b3b0284014d7961957153b9606ea99f0 refs/heads/encodable-bridge
 2793d425c5b3ce8d81b6011b02048187575f0c8f refs/heads/fuzzy-iuo
 e8e21dfe88aa14be905d6e98d5333f666c2e1a78 refs/heads/master
 b7f27e4c58c8294cb234a7b1d848c8a9f27975d4 refs/heads/no-auto-inference
@@ -13,6 +14,8 @@ b7f27e4c58c8294cb234a7b1d848c8a9f27975d4 refs/heads/no-auto-inference
 9407275d4332c9c43b0f233e6eced1d25cfa1d39 refs/pull/10/head
 2793d425c5b3ce8d81b6011b02048187575f0c8f refs/pull/100/head
 24709ee8caf52c4b1f9292f030a056a1ecf86ef4 refs/pull/100/merge
+be448120b3b0284014d7961957153b9606ea99f0 refs/pull/101/head
+229577c4309812fae80e6c0ed5f07026cda948a8 refs/pull/101/merge
 1f0af511189f2ebe797f8a3b18b42e4617500b7f refs/pull/11/head
 f83fcfd25b58fd79a714df50d3e75a2235496fd6 refs/pull/12/head
 9be312694b05ea2de66bed931dcd98507d97cbad refs/pull/14/head

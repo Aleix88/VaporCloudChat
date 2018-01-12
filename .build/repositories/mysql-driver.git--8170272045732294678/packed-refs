@@ -3,7 +3,7 @@ cb261cc4e559432287038298f8c605bdaba28824 refs/heads/1.1.0
 21d436631ff06c0e58b9496971ffbbaf155822d8 refs/heads/Casperhr-patch-1
 6a2ba5b186b8046f93f5f686b605314473d65a83 refs/heads/Casperhr-patch-2
 b60b0a2e9f1e5e2952806bc13fd8cef66e50eae8 refs/heads/add-fractional-seconds-support
-2aad33f589aef954830b6c5f013fb74512c58e15 refs/heads/beta
+307d68d8a8bc1f2333a771c8f8de32e3b2bfec36 refs/heads/beta
 a77588f09105cb2bb24ce3ad88ee151daf42f886 refs/heads/case-convention
 c5114daf3b9adf48223fb27a3a28184449c07c49 refs/heads/casperhr
 23f98e146d5525edf27560cf816f148202535e62 refs/heads/delete-foreign-key
@@ -58,9 +58,9 @@ a4ff5ccde3af0a02a46b0fa8e745150758fe33fe refs/pull/38/head
 e4c26268dd182fc1983bf909d912e612d97c73df refs/pull/42/head
 aaacb286e521b622ea90714e1537d297103e33be refs/pull/44/head
 23f98e146d5525edf27560cf816f148202535e62 refs/pull/45/head
-750c6113cd5af97adfde3fa8767d261bb996f46a refs/pull/45/merge
+38b8bf7c6f6ca278eacec79de79bc430bca47fe0 refs/pull/45/merge
 af02c9c482563b89c8e976f9ba521b0cc4b2ece5 refs/pull/48/head
-2aad33f589aef954830b6c5f013fb74512c58e15 refs/pull/49/head
+307d68d8a8bc1f2333a771c8f8de32e3b2bfec36 refs/pull/49/head
 48c660fbca372a1ce3d33d5975bcc91d15717fc8 refs/pull/49/merge
 feec4c4e2f20209f2796250a339d3005ff761e66 refs/pull/5/head
 2958e2b0a5c336603db22c6883ec7647ddb44681 refs/pull/5/merge
@@ -68,7 +68,7 @@ feec4c4e2f20209f2796250a339d3005ff761e66 refs/pull/5/head
 4422522069eec2d86bd8ca98e8c0361d01241e6e refs/pull/51/head
 a667c19681fb3821863efafe86f5050a1449fc35 refs/pull/51/merge
 6d5890d455c1aac470fd9d638adb1e5e055217ac refs/pull/53/head
-06fa9b889877f2b2dc0562cb6041c5adbccc6113 refs/pull/53/merge
+a63a683d49f09a70ef61e075104c1337439e9ac8 refs/pull/53/merge
 bee65e4d6ccb8bfa1f7e86c7a7b7677d1166d471 refs/pull/54/head
 77304150d10cd402cf4d0c93aaa495506efa282a refs/pull/55/head
 3da7e9930e2ee6e36fe99f7e26adb0787dde61b6 refs/pull/6/head

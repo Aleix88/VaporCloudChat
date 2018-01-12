@@ -12,7 +12,6 @@ depends-top-level:
 - !private "FluentProvider"
 - !private "JSON"
 - !private "LeafProvider"
-- !private "MySQLProvider"
 - !private "Node"
 - !private "Post"
 - !private "Row"
@@ -24,7 +23,6 @@ depends-member:
 - !private ["7Configs6ConfigC", "FluentProvider"]
 - !private ["7Configs6ConfigC", "JSON"]
 - !private ["7Configs6ConfigC", "LeafProvider"]
-- !private ["7Configs6ConfigC", "MySQLProvider"]
 - !private ["7Configs6ConfigC", "Node"]
 - !private ["7Configs6ConfigC", "Post"]
 - !private ["7Configs6ConfigC", "Row"]
@@ -41,7 +39,6 @@ depends-member:
 - !private ["s9EquatableP", "FluentProvider"]
 - !private ["s9EquatableP", "JSON"]
 - !private ["s9EquatableP", "LeafProvider"]
-- !private ["s9EquatableP", "MySQLProvider"]
 - !private ["s9EquatableP", "Node"]
 - !private ["s9EquatableP", "Post"]
 - !private ["s9EquatableP", "Row"]
@@ -53,7 +50,6 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "FluentProvider"]
 - !private ["s25ExpressibleByArrayLiteralP", "JSON"]
 - !private ["s25ExpressibleByArrayLiteralP", "LeafProvider"]
-- !private ["s25ExpressibleByArrayLiteralP", "MySQLProvider"]
 - !private ["s25ExpressibleByArrayLiteralP", "Node"]
 - !private ["s25ExpressibleByArrayLiteralP", "Post"]
 - !private ["s25ExpressibleByArrayLiteralP", "Row"]
@@ -66,7 +62,6 @@ depends-member:
 - !private ["s27ExpressibleByBooleanLiteralP", "FluentProvider"]
 - !private ["s27ExpressibleByBooleanLiteralP", "JSON"]
 - !private ["s27ExpressibleByBooleanLiteralP", "LeafProvider"]
-- !private ["s27ExpressibleByBooleanLiteralP", "MySQLProvider"]
 - !private ["s27ExpressibleByBooleanLiteralP", "Node"]
 - !private ["s27ExpressibleByBooleanLiteralP", "Post"]
 - !private ["s27ExpressibleByBooleanLiteralP", "Row"]
@@ -78,7 +73,6 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "FluentProvider"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "JSON"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "LeafProvider"]
-- !private ["s30ExpressibleByDictionaryLiteralP", "MySQLProvider"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "Node"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "Post"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "Row"]
@@ -90,7 +84,6 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FluentProvider"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "JSON"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "LeafProvider"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "MySQLProvider"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Node"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Post"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Row"]
@@ -102,7 +95,6 @@ depends-member:
 - !private ["s25ExpressibleByFloatLiteralP", "FluentProvider"]
 - !private ["s25ExpressibleByFloatLiteralP", "JSON"]
 - !private ["s25ExpressibleByFloatLiteralP", "LeafProvider"]
-- !private ["s25ExpressibleByFloatLiteralP", "MySQLProvider"]
 - !private ["s25ExpressibleByFloatLiteralP", "Node"]
 - !private ["s25ExpressibleByFloatLiteralP", "Post"]
 - !private ["s25ExpressibleByFloatLiteralP", "Row"]
@@ -114,7 +106,6 @@ depends-member:
 - !private ["s27ExpressibleByIntegerLiteralP", "FluentProvider"]
 - !private ["s27ExpressibleByIntegerLiteralP", "JSON"]
 - !private ["s27ExpressibleByIntegerLiteralP", "LeafProvider"]
-- !private ["s27ExpressibleByIntegerLiteralP", "MySQLProvider"]
 - !private ["s27ExpressibleByIntegerLiteralP", "Node"]
 - !private ["s27ExpressibleByIntegerLiteralP", "Post"]
 - !private ["s27ExpressibleByIntegerLiteralP", "Row"]
@@ -126,7 +117,6 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "FluentProvider"]
 - !private ["s23ExpressibleByNilLiteralP", "JSON"]
 - !private ["s23ExpressibleByNilLiteralP", "LeafProvider"]
-- !private ["s23ExpressibleByNilLiteralP", "MySQLProvider"]
 - !private ["s23ExpressibleByNilLiteralP", "Node"]
 - !private ["s23ExpressibleByNilLiteralP", "Post"]
 - !private ["s23ExpressibleByNilLiteralP", "Row"]
@@ -138,7 +128,6 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "FluentProvider"]
 - !private ["s26ExpressibleByStringLiteralP", "JSON"]
 - !private ["s26ExpressibleByStringLiteralP", "LeafProvider"]
-- !private ["s26ExpressibleByStringLiteralP", "MySQLProvider"]
 - !private ["s26ExpressibleByStringLiteralP", "Node"]
 - !private ["s26ExpressibleByStringLiteralP", "Post"]
 - !private ["s26ExpressibleByStringLiteralP", "Row"]
@@ -150,7 +139,6 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "FluentProvider"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "JSON"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "LeafProvider"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "MySQLProvider"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "Node"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "Post"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "Row"]
@@ -165,7 +153,6 @@ depends-member:
 - !private ["4Node0A13InitializableP", "FluentProvider"]
 - !private ["4Node0A13InitializableP", "JSON"]
 - !private ["4Node0A13InitializableP", "LeafProvider"]
-- !private ["4Node0A13InitializableP", "MySQLProvider"]
 - !private ["4Node0A13InitializableP", "Node"]
 - !private ["4Node0A13InitializableP", "Post"]
 - !private ["4Node0A13InitializableP", "Row"]
@@ -178,7 +165,6 @@ depends-member:
 - !private ["4Node0A13RepresentableP", "FluentProvider"]
 - !private ["4Node0A13RepresentableP", "JSON"]
 - !private ["4Node0A13RepresentableP", "LeafProvider"]
-- !private ["4Node0A13RepresentableP", "MySQLProvider"]
 - !private ["4Node0A13RepresentableP", "Node"]
 - !private ["4Node0A13RepresentableP", "Post"]
 - !private ["4Node0A13RepresentableP", "Row"]
@@ -191,7 +177,6 @@ depends-member:
 - !private ["13PathIndexableAAP", "FluentProvider"]
 - !private ["13PathIndexableAAP", "JSON"]
 - !private ["13PathIndexableAAP", "LeafProvider"]
-- !private ["13PathIndexableAAP", "MySQLProvider"]
 - !private ["13PathIndexableAAP", "Node"]
 - !private ["13PathIndexableAAP", "Post"]
 - !private ["13PathIndexableAAP", "Row"]
@@ -207,7 +192,6 @@ depends-member:
 - !private ["4Node21StructuredDataWrapperP", "FluentProvider"]
 - !private ["4Node21StructuredDataWrapperP", "JSON"]
 - !private ["4Node21StructuredDataWrapperP", "LeafProvider"]
-- !private ["4Node21StructuredDataWrapperP", "MySQLProvider"]
 - !private ["4Node21StructuredDataWrapperP", "Node"]
 - !private ["4Node21StructuredDataWrapperP", "Post"]
 - !private ["4Node21StructuredDataWrapperP", "Row"]
@@ -270,58 +254,54 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/URI.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/SMTP.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/HTTP.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/TLS.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/FormData.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Cache.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Leaf.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Routing.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/URI.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/SMTP.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/HTTP.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/TLS.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/FormData.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Cache.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Leaf.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Routing.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Crypto.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQLProvider.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/LeafProvider.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/FluentProvider.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQLDriver.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Crypto.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/LeafProvider.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/FluentProvider.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Vapor.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Branches.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Cookies.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Configs.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Sessions.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Sockets.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/WebSockets.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Branches.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Cookies.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Configs.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Sessions.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Sockets.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/WebSockets.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/BCrypt.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Multipart.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/BCrypt.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Multipart.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Transport.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/cmysql.git-3946220544950307782/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Transport.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "40c111cb26eef6ae5f24fc24c1a5eaed"
+interface-hash: "b53a4b08b66ee332ce475678806424eb"

@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/sqlite3.c \
+  /Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/sqlite3.c \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/dispatch/module.modulemap \

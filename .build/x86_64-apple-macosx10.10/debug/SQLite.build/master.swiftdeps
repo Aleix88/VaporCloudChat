@@ -1,8 +1,8 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "dbee904374b00ef7fc25cd1fb4dbcfa3"
-build_time: [1514993009, 530133000]
+options: "3fc6479e740773c8df937ffc705d5063"
+build_time: [1515779383, 887677000]
 inputs:
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite+Result.swift": [1514398116, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite+Statement.swift": [1514398116, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite.swift": [1514398116, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/StatusError.swift": [1514398116, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite+Result.swift": [1515779308, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite+Statement.swift": [1515779308, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite.swift": [1515779308, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/StatusError.swift": [1515779308, 0]

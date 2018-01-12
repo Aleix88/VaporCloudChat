@@ -561,6 +561,6 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
 interface-hash: "a849636f4ad0ef6e485e75b1f864b335"

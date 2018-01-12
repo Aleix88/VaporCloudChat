@@ -2,7 +2,6 @@
 252bd96b23937b444f9fe501bff0cc1f34a5b618 refs/heads/beta
 e6adb92a20305256cb7cad7bbb1b20878f0d8a1f refs/heads/master
 85271a2d2b686ad426ecac69686cac9e78ecdbf8 refs/heads/rename
-791df2219f9d8d0eb427184b9d530de0b4fb3a66 refs/heads/test-circleci
 3a7608225a4c9328ad426ef64341c37c2796ab75 refs/heads/two
 85271a2d2b686ad426ecac69686cac9e78ecdbf8 refs/pull/1/head
 b5f54e4f96b5814488b25a7a42e0b8a75d044a36 refs/pull/1/merge
@@ -23,7 +22,7 @@ dbfe33d55b4173f200c5b3cedc8c96f53819a21a refs/pull/20/head
 fce9ef303eb8febe4eccb80e7a3046b0fa9efc12 refs/pull/24/head
 c578c71fbecbbed276fe688e5fedcc93b8546a8a refs/pull/25/head
 791df2219f9d8d0eb427184b9d530de0b4fb3a66 refs/pull/26/head
-1eb728a260b473e0c9bd51f0fb14c3cf39ed6d00 refs/pull/26/merge
+2ee9d07cee6b5c1f950e8ecdc58f48164dc8930d refs/pull/26/merge
 8854862de13f80a68bc250f6c31b47feb3be18ed refs/pull/27/head
 a534dbdef6aeb731b45b6a3f89c96697293c5ff5 refs/pull/3/head
 3c9c49a2118ee7f404ed42255e319319bae5de97 refs/pull/5/head

@@ -1,9 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "2023f3282961740dd6e50f989bb5c07a"
-build_time: [1514919049, 554053000]
-inputs:
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-provider.git-4751738990545784522/Sources/PostgreSQLProvider/Driver+Config.swift": [1514909975, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-provider.git-4751738990545784522/Sources/PostgreSQLProvider/Droplet+PostgreSQL.swift": [1514909975, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-provider.git-4751738990545784522/Sources/PostgreSQLProvider/Error.swift": [1514909975, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-provider.git-4751738990545784522/Sources/PostgreSQLProvider/Exports.swift": [1514909975, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-provider.git-4751738990545784522/Sources/PostgreSQLProvider/Provider.swift": [1514909975, 0]

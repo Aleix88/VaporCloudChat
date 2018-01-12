@@ -13,6 +13,7 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "Bytes"
 - !private "EAGAIN"
+- !private "EBADF"
 - !private "ECONNRESET"
 - !private "EINTR"
 - !private "FloatLiteralType"
@@ -38,12 +39,14 @@ depends-member:
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s5ErrorP", "init"]
 - !private ["7Sockets11ErrorReasonO", "readFailed"]
+- !private ["7Sockets11ErrorReasonO", "socketIsClosed"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s27ExpressibleByIntegerLiteralP", "raw"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["7Sockets9RawSocketP", "Bytes"]
 - !private ["7Sockets9RawSocketP", "EAGAIN"]
+- !private ["7Sockets9RawSocketP", "EBADF"]
 - !private ["7Sockets9RawSocketP", "ECONNRESET"]
 - !private ["7Sockets9RawSocketP", "EINTR"]
 - ["7Sockets9RawSocketP", "Int"]
@@ -51,10 +54,12 @@ depends-member:
 - !private ["7Sockets9RawSocketP", "close"]
 - !private ["7Sockets9RawSocketP", "descriptor"]
 - !private ["7Sockets9RawSocketP", "errno"]
+- !private ["7Sockets9RawSocketP", "isClosed"]
 - !private ["7Sockets9RawSocketP", "libc"]
 - !private ["7Sockets9RawSocketP", "read"]
 - ["9Transport14ReadableStreamP", "Bytes"]
 - !private ["9Transport14ReadableStreamP", "EAGAIN"]
+- !private ["9Transport14ReadableStreamP", "EBADF"]
 - !private ["9Transport14ReadableStreamP", "ECONNRESET"]
 - !private ["9Transport14ReadableStreamP", "EINTR"]
 - ["9Transport14ReadableStreamP", "Int"]
@@ -62,6 +67,7 @@ depends-member:
 - !private ["9Transport14ReadableStreamP", "close"]
 - !private ["9Transport14ReadableStreamP", "descriptor"]
 - !private ["9Transport14ReadableStreamP", "errno"]
+- !private ["9Transport14ReadableStreamP", "isClosed"]
 - !private ["9Transport14ReadableStreamP", "libc"]
 - !private ["9Transport14ReadableStreamP", "read"]
 - ["9Transport14ReadableStreamP", ""]
@@ -69,6 +75,7 @@ depends-member:
 - !private ["7Sockets0A5ErrorV", "init"]
 - ["9Transport6StreamP", "Bytes"]
 - !private ["9Transport6StreamP", "EAGAIN"]
+- !private ["9Transport6StreamP", "EBADF"]
 - !private ["9Transport6StreamP", "ECONNRESET"]
 - !private ["9Transport6StreamP", "EINTR"]
 - ["9Transport6StreamP", "Int"]
@@ -76,10 +83,12 @@ depends-member:
 - !private ["9Transport6StreamP", "close"]
 - !private ["9Transport6StreamP", "descriptor"]
 - !private ["9Transport6StreamP", "errno"]
+- !private ["9Transport6StreamP", "isClosed"]
 - !private ["9Transport6StreamP", "libc"]
 - !private ["9Transport6StreamP", "read"]
 - ["7Sockets17TCPReadableSocketP", "Bytes"]
 - !private ["7Sockets17TCPReadableSocketP", "EAGAIN"]
+- !private ["7Sockets17TCPReadableSocketP", "EBADF"]
 - !private ["7Sockets17TCPReadableSocketP", "ECONNRESET"]
 - !private ["7Sockets17TCPReadableSocketP", "EINTR"]
 - ["7Sockets17TCPReadableSocketP", "Int"]
@@ -87,10 +96,12 @@ depends-member:
 - !private ["7Sockets17TCPReadableSocketP", "close"]
 - !private ["7Sockets17TCPReadableSocketP", "descriptor"]
 - !private ["7Sockets17TCPReadableSocketP", "errno"]
+- !private ["7Sockets17TCPReadableSocketP", "isClosed"]
 - !private ["7Sockets17TCPReadableSocketP", "libc"]
 - ["7Sockets17TCPReadableSocketP", "read"]
 - ["7Sockets9TCPSocketP", "Bytes"]
 - !private ["7Sockets9TCPSocketP", "EAGAIN"]
+- !private ["7Sockets9TCPSocketP", "EBADF"]
 - !private ["7Sockets9TCPSocketP", "ECONNRESET"]
 - !private ["7Sockets9TCPSocketP", "EINTR"]
 - ["7Sockets9TCPSocketP", "Int"]
@@ -98,6 +109,7 @@ depends-member:
 - !private ["7Sockets9TCPSocketP", "close"]
 - !private ["7Sockets9TCPSocketP", "descriptor"]
 - !private ["7Sockets9TCPSocketP", "errno"]
+- !private ["7Sockets9TCPSocketP", "isClosed"]
 - !private ["7Sockets9TCPSocketP", "libc"]
 - !private ["7Sockets9TCPSocketP", "read"]
 - ["7Sockets9TCPSocketP", ""]
@@ -132,21 +144,21 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Transport.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Transport.swiftmodule"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"

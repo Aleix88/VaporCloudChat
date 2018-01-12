@@ -1,5 +1,4 @@
 import FluentProvider
-import MySQLProvider
 import JSON
 import LeafProvider
 import Sessions
@@ -17,7 +16,6 @@ extension Config {
     /// Configure providers
     private func setupProviders() throws {
         try addProvider(FluentProvider.Provider.self)
-        try addProvider(MySQLProvider.Provider.self)
         try addProvider(LeafProvider.Provider.self)
     }
     

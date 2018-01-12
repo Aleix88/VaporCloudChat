@@ -6,7 +6,7 @@ cd14fc37b797a384ce32490f1135aa8da611023e refs/heads/beta
 a4268b22a8db91f76bbafe09c6f9a894354e8832 refs/heads/bits
 f2b91a90a7d66a326bc0a3e6a6d55ae1b113a51e refs/heads/buffer-cutoff-fix
 f25fa64e36b59651fe2184afdb727b5d97a26398 refs/heads/improvements
-5e59c09eed9b515a932c2e3c30660053882471e9 refs/heads/master
+a77816695630a44d5d1393fc71eac37ac3d082ca refs/heads/master
 bdca5c3d35308bc9d1c74dd3f356e60a01a8dcf1 refs/heads/send-chunking
 e41d26de5fb43df67efa52a50d2a3d83af2e4c41 refs/heads/two
 6837584826909a6d276ce7bf0f3d2f19e32f4b12 refs/pull/100/head
@@ -40,7 +40,7 @@ e41d26de5fb43df67efa52a50d2a3d83af2e4c41 refs/pull/132/head
 bae2dce5e839385f8c807d837237f70ed8bfe2ed refs/pull/133/head
 090f2fa0b6fc213f7fac17df0bbf719ce16ab66c refs/pull/136/head
 d99ec5ea7b4d0b0d2ba1ec48290ff5781a94fe35 refs/pull/137/head
-46bdf310e536d17b4aec322617ab5d8d1071ed6e refs/pull/137/merge
+411d99e1dc57ba2cf0047ff36d28d5ee0111ff20 refs/pull/137/merge
 0ee89629aefdac5ee659da13b83b663017206d55 refs/pull/138/head
 df3aebc8d762c9f656080eac89f471d49d44fc47 refs/pull/138/merge
 aa5300a7d8229c1855aca957f044e5df9c9ffd12 refs/pull/139/head
@@ -52,7 +52,6 @@ d70949bc13ef58e58c8f8e44255268b29d069aa8 refs/pull/149/head
 55b860b5ce228c9521f2022c7350f5fd5a5b93af refs/pull/15/head
 8f03f641c69b73f376fa2c77a6d94972453e4682 refs/pull/15/merge
 4bce7fa2f293a50c25349c82d4ce7e7006e8a6c0 refs/pull/150/head
-e8e8340d1d8c0bcf86904e591baba1f2c4e2c8c2 refs/pull/150/merge
 936a9489b497a1fb1e63bb890f8c004ff8f2c056 refs/pull/151/head
 4b27a95c150fc999cfce6fa5041d60ae4ec7a495 refs/pull/151/merge
 87a244f136525353a7ac48564d26051be1aa8882 refs/pull/16/head
@@ -177,3 +176,4 @@ d08962c7bb56e1b6835c38b351b23d29a65d18b2 refs/tags/2.0.0-beta.4
 f6b06982e94db71227e99c56fec5899a8526e8ad refs/tags/2.1.0
 fb839a109d256e843945086f0730b49e4eeed091 refs/tags/2.2.0
 70d14c0e223257176f5ef69a595f7cad5de7a88b refs/tags/2.2.1
+a77816695630a44d5d1393fc71eac37ac3d082ca refs/tags/2.2.2
