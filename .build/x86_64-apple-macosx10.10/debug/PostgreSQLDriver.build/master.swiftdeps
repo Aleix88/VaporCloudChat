@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "bb3fd46be59aca8b9aa8ecd147cc9afc"
+build_time: [1514919026, 152532000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-driver.git--2580255504901155029/Sources/PostgreSQLDriver/Builder+PostgreSQL.swift": [1514909975, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-driver.git--2580255504901155029/Sources/PostgreSQLDriver/PostgreSQLConnection.swift": [1514909975, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-driver.git--2580255504901155029/Sources/PostgreSQLDriver/PostgreSQLDriver.swift": [1514909975, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/postgresql-driver.git--2580255504901155029/Sources/PostgreSQLDriver/PostgreSQLSerializer.swift": [1514909975, 0]

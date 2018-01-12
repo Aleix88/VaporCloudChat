@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConnInfo"
+- "ConnInfoInitializable"
+provides-nominal:
+- "10PostgreSQL8ConnInfoO"
+- "10PostgreSQL21ConnInfoInitializableP"
+provides-member:
+- ["10PostgreSQL8ConnInfoO", ""]
+- ["10PostgreSQL21ConnInfoInitializableP", ""]
+- ["10PostgreSQL21ConnInfoInitializableP", "init"]
+- ["10PostgreSQL21ConnInfoInitializableP", "init"]
+- ["10PostgreSQL21ConnInfoInitializableP", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ConnInfo"
+- "ConnInfoInitializable"
+- "Int"
+- "String"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "basic"]
+- !private ["s23BidirectionalCollectionP", "params"]
+- !private ["s23BidirectionalCollectionP", "raw"]
+- !private ["4Bits16BytesConvertibleP", "basic"]
+- !private ["4Bits16BytesConvertibleP", "params"]
+- !private ["4Bits16BytesConvertibleP", "raw"]
+- !private ["4Bits18BytesInitializableP", "basic"]
+- !private ["4Bits18BytesInitializableP", "params"]
+- !private ["4Bits18BytesInitializableP", "raw"]
+- !private ["4Bits18BytesRepresentableP", "basic"]
+- !private ["4Bits18BytesRepresentableP", "params"]
+- !private ["4Bits18BytesRepresentableP", "raw"]
+- !private ["s7CVarArgP", "basic"]
+- !private ["s7CVarArgP", "params"]
+- !private ["s7CVarArgP", "raw"]
+- !private ["s10CollectionP", "basic"]
+- !private ["s10CollectionP", "params"]
+- !private ["s10CollectionP", "raw"]
+- !private ["s10ComparableP", "basic"]
+- !private ["s10ComparableP", "params"]
+- !private ["s10ComparableP", "raw"]
+- ["10PostgreSQL8ConnInfoO", "Int"]
+- ["10PostgreSQL8ConnInfoO", "String"]
+- ["10PostgreSQL8ConnInfoO", "basic"]
+- ["10PostgreSQL8ConnInfoO", "params"]
+- ["10PostgreSQL8ConnInfoO", "raw"]
+- ["10PostgreSQL21ConnInfoInitializableP", "ConnInfo"]
+- ["10PostgreSQL21ConnInfoInitializableP", "Int"]
+- ["10PostgreSQL21ConnInfoInitializableP", "String"]
+- ["10PostgreSQL21ConnInfoInitializableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "basic"]
+- !private ["s28CustomDebugStringConvertibleP", "params"]
+- !private ["s28CustomDebugStringConvertibleP", "raw"]
+- !private ["s29CustomPlaygroundQuickLookableP", "basic"]
+- !private ["s29CustomPlaygroundQuickLookableP", "params"]
+- !private ["s29CustomPlaygroundQuickLookableP", "raw"]
+- !private ["s17CustomReflectableP", "basic"]
+- !private ["s17CustomReflectableP", "params"]
+- !private ["s17CustomReflectableP", "raw"]
+- !private ["s23CustomStringConvertibleP", "basic"]
+- !private ["s23CustomStringConvertibleP", "params"]
+- !private ["s23CustomStringConvertibleP", "raw"]
+- !private ["s9DecodableP", "basic"]
+- !private ["s9DecodableP", "params"]
+- !private ["s9DecodableP", "raw"]
+- !private ["s9EncodableP", "basic"]
+- !private ["s9EncodableP", "params"]
+- !private ["s9EncodableP", "raw"]
+- !private ["s9EquatableP", "basic"]
+- !private ["s9EquatableP", "params"]
+- !private ["s9EquatableP", "raw"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "basic"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "params"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "raw"]
+- !private ["s26ExpressibleByStringLiteralP", "basic"]
+- !private ["s26ExpressibleByStringLiteralP", "params"]
+- !private ["s26ExpressibleByStringLiteralP", "raw"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "basic"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "params"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "raw"]
+- !private ["s8HashableP", "basic"]
+- !private ["s8HashableP", "params"]
+- !private ["s8HashableP", "raw"]
+- !private ["s25LosslessStringConvertibleP", "basic"]
+- !private ["s25LosslessStringConvertibleP", "params"]
+- !private ["s25LosslessStringConvertibleP", "raw"]
+- !private ["s10MirrorPathP", "basic"]
+- !private ["s10MirrorPathP", "params"]
+- !private ["s10MirrorPathP", "raw"]
+- !private ["So8NSCodingP", "basic"]
+- !private ["So8NSCodingP", "params"]
+- !private ["So8NSCodingP", "raw"]
+- !private ["So9NSCopyingP", "basic"]
+- !private ["So9NSCopyingP", "params"]
+- !private ["So9NSCopyingP", "raw"]
+- !private ["So21NSItemProviderReadingP", "basic"]
+- !private ["So21NSItemProviderReadingP", "params"]
+- !private ["So21NSItemProviderReadingP", "raw"]
+- !private ["So21NSItemProviderWritingP", "basic"]
+- !private ["So21NSItemProviderWritingP", "params"]
+- !private ["So21NSItemProviderWritingP", "raw"]
+- !private ["So16NSMutableCopyingP", "basic"]
+- !private ["So16NSMutableCopyingP", "params"]
+- !private ["So16NSMutableCopyingP", "raw"]
+- !private ["So8NSObjectC", "basic"]
+- !private ["So8NSObjectC", "params"]
+- !private ["So8NSObjectC", "raw"]
+- !private ["So16NSObjectProtocolP", "basic"]
+- !private ["So16NSObjectProtocolP", "params"]
+- !private ["So16NSObjectProtocolP", "raw"]
+- !private ["So14NSSecureCodingP", "basic"]
+- !private ["So14NSSecureCodingP", "params"]
+- !private ["So14NSSecureCodingP", "raw"]
+- !private ["So8NSStringC", "basic"]
+- !private ["So8NSStringC", "params"]
+- !private ["So8NSStringC", "raw"]
+- !private ["4Node0A13InitializableP", "basic"]
+- !private ["4Node0A13InitializableP", "params"]
+- !private ["4Node0A13InitializableP", "raw"]
+- !private ["4Node0A13RepresentableP", "basic"]
+- !private ["4Node0A13RepresentableP", "params"]
+- !private ["4Node0A13RepresentableP", "raw"]
+- !private ["13PathIndexable0A7IndexerP", "basic"]
+- !private ["13PathIndexable0A7IndexerP", "params"]
+- !private ["13PathIndexable0A7IndexerP", "raw"]
+- !private ["s26RangeReplaceableCollectionP", "basic"]
+- !private ["s26RangeReplaceableCollectionP", "params"]
+- !private ["s26RangeReplaceableCollectionP", "raw"]
+- !private ["s8SequenceP", "basic"]
+- !private ["s8SequenceP", "params"]
+- !private ["s8SequenceP", "raw"]
+- !private ["SS", "basic"]
+- !private ["SS", "params"]
+- !private ["SS", "raw"]
+- !private ["s14StringProtocolP", "basic"]
+- !private ["s14StringProtocolP", "params"]
+- !private ["s14StringProtocolP", "raw"]
+- !private ["s16TextOutputStreamP", "basic"]
+- !private ["s16TextOutputStreamP", "params"]
+- !private ["s16TextOutputStreamP", "raw"]
+- !private ["s20TextOutputStreamableP", "basic"]
+- !private ["s20TextOutputStreamableP", "params"]
+- !private ["s20TextOutputStreamableP", "raw"]
+- !private ["s23_BidirectionalIndexableP", "basic"]
+- !private ["s23_BidirectionalIndexableP", "params"]
+- !private ["s23_BidirectionalIndexableP", "raw"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "basic"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "params"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "raw"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "basic"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "params"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "raw"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "basic"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "params"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "raw"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "basic"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "params"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "raw"]
+- !private ["s33_ExpressibleByStringInterpolationP", "basic"]
+- !private ["s33_ExpressibleByStringInterpolationP", "params"]
+- !private ["s33_ExpressibleByStringInterpolationP", "raw"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "basic"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "params"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "raw"]
+- !private ["s10_IndexableP", "basic"]
+- !private ["s10_IndexableP", "params"]
+- !private ["s10_IndexableP", "raw"]
+- !private ["s14_IndexableBaseP", "basic"]
+- !private ["s14_IndexableBaseP", "params"]
+- !private ["s14_IndexableBaseP", "raw"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "basic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "params"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "raw"]
+- !private ["s21_ObjectiveCBridgeableP", "basic"]
+- !private ["s21_ObjectiveCBridgeableP", "params"]
+- !private ["s21_ObjectiveCBridgeableP", "raw"]
+- !private ["s26_RangeReplaceableIndexableP", "basic"]
+- !private ["s26_RangeReplaceableIndexableP", "params"]
+- !private ["s26_RangeReplaceableIndexableP", "raw"]
+- !private ["s16_SwiftStringViewP", "basic"]
+- !private ["s16_SwiftStringViewP", "params"]
+- !private ["s16_SwiftStringViewP", "raw"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "4Bits16BytesConvertibleP"
+- !private "4Bits18BytesInitializableP"
+- !private "4Bits18BytesRepresentableP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "10PostgreSQL8ConnInfoO"
+- "10PostgreSQL21ConnInfoInitializableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "4Node0A13InitializableP"
+- !private "4Node0A13RepresentableP"
+- !private "13PathIndexable0A7IndexerP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/cpostgresql.git-2801679829006959247/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "11410da58ee3b429967ff77554dd508a"

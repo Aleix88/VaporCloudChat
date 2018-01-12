@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "92642384dc1b15d4403bb7306e22b1af"
+build_time: [1514996484, 691351000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/Keys.swift": [1514996473, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/LeafProviderError.swift": [1514996473, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/LeafRenderer.swift": [1514996473, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/Provider.swift": [1514996473, 0]

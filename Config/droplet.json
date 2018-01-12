@@ -32,12 +32,16 @@
     "middleware": [
         "error",
         "date",
-        "file"
+        "file",
+	"sessions"
     ],
 
     "//": "Choose which commands this application can run",
     "//": "prepare: Supplied by the Fluent provider. Prepares the database (configure in fluent.json)",
     "commands": [
         "prepare"
-    ]
+    ],	
+    
+    "view": "leaf"
+
 }

@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "d0444dd9d7dfdac5e95ceff14e108017"
+build_time: [1514993015, 123228000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Certificates.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ClientSocket.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Context.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Error.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Exports.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/InternetSocket.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Mode.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ReadableSocket.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ServerSocket.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Socket.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Utilities.swift": [1514918965, 0]
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/WriteableSocket.swift": [1514918965, 0]

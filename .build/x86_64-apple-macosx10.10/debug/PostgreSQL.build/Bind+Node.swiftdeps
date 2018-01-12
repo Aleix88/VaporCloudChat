@@ -1,0 +1,563 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["10PostgreSQL4BindC", ""]
+- ["10PostgreSQL4BindC", "value"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "-"
+- !private "..<"
+- !private "=="
+- !private ">"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "BinaryUtils"
+- "Bind"
+- !private "Configuration"
+- !private "Double"
+- !private "FieldType"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "Int8"
+- !private "IntegerLiteralType"
+- "StructuredData"
+- !private "UnsafeMutablePointer"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "removeFirst"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- !private ["10PostgreSQL9FieldTypeO14ArraySupportedO", "supported"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "removeFirst"]
+- !private ["s23BidirectionalCollectionP", "reserveCapacity"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseBitString"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseBox"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseBytes"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseCircle"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseFloat32"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseFloat64"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseIPAddress"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseInt16"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseInt32"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseInt64"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseInterval"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseLineSegment"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseMacAddress"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseNumeric"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parsePath"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parsePoint"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parsePolygon"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseString"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseTimetamp"]
+- !private ["10PostgreSQL11BinaryUtilsV", "parseUUID"]
+- !private ["10PostgreSQL4BindC", "BinaryUtils"]
+- !private ["10PostgreSQL4BindC", "Bind"]
+- !private ["10PostgreSQL4BindC", "Configuration"]
+- !private ["10PostgreSQL4BindC", "Double"]
+- !private ["10PostgreSQL4BindC", "FieldType"]
+- !private ["10PostgreSQL4BindC", "Int"]
+- !private ["10PostgreSQL4BindC", "Int8"]
+- ["10PostgreSQL4BindC", "StructuredData"]
+- !private ["10PostgreSQL4BindC", "UnsafeMutablePointer"]
+- !private ["10PostgreSQL4BindC", "bytes"]
+- !private ["10PostgreSQL4BindC", "configuration"]
+- !private ["10PostgreSQL4BindC", "format"]
+- !private ["10PostgreSQL4BindC", "length"]
+- !private ["10PostgreSQL4BindC", "parse"]
+- !private ["10PostgreSQL4BindC", "type"]
+- ["10PostgreSQL4BindC", "value"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeFirst"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "removeFirst"]
+- !private ["s10CollectionP", "reserveCapacity"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "advanced"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["10PostgreSQL13ConfigurationV", "hasIntegerDatetimes"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeFirst"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "bytes"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "double"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "null"]
+- !private ["s23CustomStringConvertibleP", "number"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "removeFirst"]
+- !private ["s9DecodableP", "reserveCapacity"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "removeFirst"]
+- !private ["s9EncodableP", "reserveCapacity"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "ArraySupported"]
+- !private ["s9EquatableP", "Supported"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "advanced"]
+- ["s9EquatableP", "array"]
+- !private ["s9EquatableP", "binary"]
+- !private ["s9EquatableP", "bit"]
+- !private ["s9EquatableP", "bool"]
+- !private ["s9EquatableP", "box"]
+- !private ["s9EquatableP", "bpchar"]
+- !private ["s9EquatableP", "bytea"]
+- !private ["s9EquatableP", "bytes"]
+- !private ["s9EquatableP", "char"]
+- !private ["s9EquatableP", "cidr"]
+- !private ["s9EquatableP", "circle"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "double"]
+- !private ["s9EquatableP", "float4"]
+- !private ["s9EquatableP", "float8"]
+- !private ["s9EquatableP", "inet"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "int"]
+- !private ["s9EquatableP", "int2"]
+- !private ["s9EquatableP", "int4"]
+- !private ["s9EquatableP", "int8"]
+- !private ["s9EquatableP", "interval"]
+- !private ["s9EquatableP", "json"]
+- !private ["s9EquatableP", "jsonb"]
+- !private ["s9EquatableP", "lseg"]
+- !private ["s9EquatableP", "macaddr"]
+- !private ["s9EquatableP", "name"]
+- ["s9EquatableP", "null"]
+- !private ["s9EquatableP", "number"]
+- !private ["s9EquatableP", "numeric"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "point"]
+- !private ["s9EquatableP", "polygon"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "supported"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "time"]
+- !private ["s9EquatableP", "timestamp"]
+- !private ["s9EquatableP", "timestamptz"]
+- !private ["s9EquatableP", "timetz"]
+- ["s9EquatableP", "unsupported"]
+- !private ["s9EquatableP", "uuid"]
+- !private ["s9EquatableP", "varbit"]
+- !private ["s9EquatableP", "varchar"]
+- !private ["s9EquatableP", "xml"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "double"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int"]
+- !private ["s23ExpressibleByNilLiteralP", "ArraySupported"]
+- !private ["s23ExpressibleByNilLiteralP", "Supported"]
+- ["s23ExpressibleByNilLiteralP", "array"]
+- ["s23ExpressibleByNilLiteralP", "null"]
+- ["s23ExpressibleByNilLiteralP", "supported"]
+- ["s23ExpressibleByNilLiteralP", "unsupported"]
+- !private ["10PostgreSQL9FieldTypeO", "ArraySupported"]
+- !private ["10PostgreSQL9FieldTypeO", "Supported"]
+- ["10PostgreSQL9FieldTypeO", "array"]
+- ["10PostgreSQL9FieldTypeO", "null"]
+- ["10PostgreSQL9FieldTypeO", "supported"]
+- ["10PostgreSQL9FieldTypeO", "unsupported"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["10PostgreSQL4BindC6FormatO", "binary"]
+- !private ["10PostgreSQL4BindC6FormatO", "deinit"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "advanced"]
+- !private ["s8HashableP", "binary"]
+- !private ["s8HashableP", "bit"]
+- !private ["s8HashableP", "bool"]
+- !private ["s8HashableP", "box"]
+- !private ["s8HashableP", "bpchar"]
+- !private ["s8HashableP", "bytea"]
+- !private ["s8HashableP", "char"]
+- !private ["s8HashableP", "cidr"]
+- !private ["s8HashableP", "circle"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "float4"]
+- !private ["s8HashableP", "float8"]
+- !private ["s8HashableP", "inet"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "int2"]
+- !private ["s8HashableP", "int4"]
+- !private ["s8HashableP", "int8"]
+- !private ["s8HashableP", "interval"]
+- !private ["s8HashableP", "json"]
+- !private ["s8HashableP", "jsonb"]
+- !private ["s8HashableP", "lseg"]
+- !private ["s8HashableP", "macaddr"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "numeric"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "point"]
+- !private ["s8HashableP", "polygon"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "supported"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "time"]
+- !private ["s8HashableP", "timestamp"]
+- !private ["s8HashableP", "timestamptz"]
+- !private ["s8HashableP", "timetz"]
+- !private ["s8HashableP", "uuid"]
+- !private ["s8HashableP", "varbit"]
+- !private ["s8HashableP", "varchar"]
+- !private ["s8HashableP", "xml"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "removeFirst"]
+- !private ["s17MutableCollectionP", "reserveCapacity"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["4Node0A28ConvertibleFloatingPointTypeP", "init"]
+- !private ["4Node0A13InitializableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13InitializableP", "append"]
+- !private ["4Node0A13InitializableP", "array"]
+- !private ["4Node0A13InitializableP", "bool"]
+- !private ["4Node0A13InitializableP", "bytes"]
+- !private ["4Node0A13InitializableP", "count"]
+- !private ["4Node0A13InitializableP", "date"]
+- !private ["4Node0A13InitializableP", "init"]
+- !private ["4Node0A13InitializableP", "null"]
+- !private ["4Node0A13InitializableP", "number"]
+- !private ["4Node0A13InitializableP", "removeFirst"]
+- !private ["4Node0A13InitializableP", "reserveCapacity"]
+- !private ["4Node0A13InitializableP", "string"]
+- !private ["4Node0A13InitializableP", "subscript"]
+- !private ["4Node0A13RepresentableP", "_getBuiltinLogicValue"]
+- !private ["4Node0A13RepresentableP", "append"]
+- !private ["4Node0A13RepresentableP", "array"]
+- !private ["4Node0A13RepresentableP", "bool"]
+- !private ["4Node0A13RepresentableP", "bytes"]
+- !private ["4Node0A13RepresentableP", "count"]
+- !private ["4Node0A13RepresentableP", "date"]
+- !private ["4Node0A13RepresentableP", "init"]
+- !private ["4Node0A13RepresentableP", "null"]
+- !private ["4Node0A13RepresentableP", "number"]
+- !private ["4Node0A13RepresentableP", "removeFirst"]
+- !private ["4Node0A13RepresentableP", "reserveCapacity"]
+- !private ["4Node0A13RepresentableP", "string"]
+- !private ["4Node0A13RepresentableP", "subscript"]
+- !private ["4Node14StructuredDataO6NumberO", "double"]
+- !private ["4Node14StructuredDataO6NumberO", "int"]
+- !private ["s7NumericP", "init"]
+- !private ["13PathIndexableAAP", "array"]
+- !private ["13PathIndexableAAP", "bool"]
+- !private ["13PathIndexableAAP", "bytes"]
+- !private ["13PathIndexableAAP", "date"]
+- !private ["13PathIndexableAAP", "null"]
+- !private ["13PathIndexableAAP", "number"]
+- !private ["13PathIndexableAAP", "string"]
+- !private ["13PathIndexable0A7IndexerP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "removeFirst"]
+- !private ["s22RandomAccessCollectionP", "reserveCapacity"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "removeFirst"]
+- !private ["s26RangeReplaceableCollectionP", "reserveCapacity"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "binary"]
+- !private ["s16RawRepresentableP", "bit"]
+- !private ["s16RawRepresentableP", "bool"]
+- !private ["s16RawRepresentableP", "box"]
+- !private ["s16RawRepresentableP", "bpchar"]
+- !private ["s16RawRepresentableP", "bytea"]
+- !private ["s16RawRepresentableP", "char"]
+- !private ["s16RawRepresentableP", "cidr"]
+- !private ["s16RawRepresentableP", "circle"]
+- !private ["s16RawRepresentableP", "date"]
+- !private ["s16RawRepresentableP", "float4"]
+- !private ["s16RawRepresentableP", "float8"]
+- !private ["s16RawRepresentableP", "inet"]
+- !private ["s16RawRepresentableP", "int2"]
+- !private ["s16RawRepresentableP", "int4"]
+- !private ["s16RawRepresentableP", "int8"]
+- !private ["s16RawRepresentableP", "interval"]
+- !private ["s16RawRepresentableP", "json"]
+- !private ["s16RawRepresentableP", "jsonb"]
+- !private ["s16RawRepresentableP", "lseg"]
+- !private ["s16RawRepresentableP", "macaddr"]
+- !private ["s16RawRepresentableP", "name"]
+- !private ["s16RawRepresentableP", "numeric"]
+- !private ["s16RawRepresentableP", "path"]
+- !private ["s16RawRepresentableP", "point"]
+- !private ["s16RawRepresentableP", "polygon"]
+- !private ["s16RawRepresentableP", "supported"]
+- !private ["s16RawRepresentableP", "text"]
+- !private ["s16RawRepresentableP", "time"]
+- !private ["s16RawRepresentableP", "timestamp"]
+- !private ["s16RawRepresentableP", "timestamptz"]
+- !private ["s16RawRepresentableP", "timetz"]
+- !private ["s16RawRepresentableP", "uuid"]
+- !private ["s16RawRepresentableP", "varbit"]
+- !private ["s16RawRepresentableP", "varchar"]
+- !private ["s16RawRepresentableP", "xml"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "removeFirst"]
+- !private ["s8SequenceP", "reserveCapacity"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "advanced"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "subscript"]
+- !private ["4Node14StructuredDataO", "array"]
+- !private ["4Node14StructuredDataO", "bool"]
+- !private ["4Node14StructuredDataO", "bytes"]
+- !private ["4Node14StructuredDataO", "date"]
+- !private ["4Node14StructuredDataO", "null"]
+- !private ["4Node14StructuredDataO", "number"]
+- !private ["4Node14StructuredDataO", "string"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "bit"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "bool"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "box"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "bpchar"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "bytea"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "char"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "cidr"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "circle"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "date"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "float4"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "float8"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "inet"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "int2"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "int4"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "int8"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "interval"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "json"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "jsonb"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "lseg"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "macaddr"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "name"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "numeric"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "path"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "point"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "polygon"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "text"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "time"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "timestamp"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "timestamptz"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "timetz"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "uuid"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "varbit"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "varchar"]
+- !private ["10PostgreSQL9FieldTypeO9SupportedO", "xml"]
+- !private ["Sp", "advanced"]
+- !private ["Sp", "subscript"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "removeFirst"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "removeFirst"]
+- !private ["s23_BidirectionalIndexableP", "reserveCapacity"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "removeFirst"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "removeFirst"]
+- !private ["s10_IndexableP", "reserveCapacity"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "removeFirst"]
+- !private ["s14_IndexableBaseP", "reserveCapacity"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "removeFirst"]
+- !private ["s17_MutableIndexableP", "reserveCapacity"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "removeFirst"]
+- !private ["s22_RandomAccessIndexableP", "reserveCapacity"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "removeFirst"]
+- !private ["s26_RangeReplaceableIndexableP", "reserveCapacity"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s11_StrideableP", "advanced"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "10PostgreSQL9FieldTypeO14ArraySupportedO"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "10PostgreSQL11BinaryUtilsV"
+- "10PostgreSQL4BindC"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "10PostgreSQL13ConfigurationV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "10PostgreSQL9FieldTypeO"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "10PostgreSQL4BindC6FormatO"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "4Node0A28ConvertibleFloatingPointTypeP"
+- !private "4Node0A13InitializableP"
+- !private "4Node0A13RepresentableP"
+- !private "4Node14StructuredDataO6NumberO"
+- !private "s7NumericP"
+- !private "13PathIndexableAAP"
+- !private "13PathIndexable0A7IndexerP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "4Node14StructuredDataO"
+- !private "10PostgreSQL9FieldTypeO9SupportedO"
+- !private "Sp"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/cpostgresql.git-2801679829006959247/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "2fdd8272df5bc186ab24419ab1ac21e9"

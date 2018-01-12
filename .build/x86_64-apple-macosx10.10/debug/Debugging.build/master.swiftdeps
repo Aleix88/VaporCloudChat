@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "b95f826e07510652ad50d8b52aa9409c"
+build_time: [1514992993, 848438000]
+inputs:
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/debugging.git-4365319567167379684/Sources/Debugging/Debuggable.swift": [1514918963, 0]

@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/master.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Bind/Bind+Node.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind+Node.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind/Bind+Node.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind+Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind+Node.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Bind/Bind.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind/Bind.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Bind/Binds.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Binds.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Bind/Binds.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Binds~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Binds.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Connection.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Connection.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Connection.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Connection.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Context.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Context.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Context.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Context~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Context.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Database.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Database.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Database.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Database~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Database.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Error.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Error.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Error.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Error.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Exports.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Exports.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Exports.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Exports.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Field/Field+Variant.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field+Variant.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field/Field+Variant.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field+Variant~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field+Variant.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Field/Field.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field/Field.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field.swiftdeps"
+  },
+  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/mysql.git-1890032512239690518/Sources/MySQL/Field/Fields.swift": {
+    "dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Fields.d",
+    "object": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Field/Fields.swift.o",
+    "swiftmodule": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Fields~partial.swiftmodule",
+    "swift-dependencies": "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/MySQL.build/Fields.swiftdeps"
+  }
+}
