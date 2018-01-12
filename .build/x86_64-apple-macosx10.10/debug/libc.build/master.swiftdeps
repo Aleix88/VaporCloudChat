@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "89c38498f36645e92aa466ab26af67d7"
-build_time: [1515779325, 554888000]
-inputs:
-  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/core.git-9210800844849382486/Sources/libc/libc.swift": [1515779302, 0]

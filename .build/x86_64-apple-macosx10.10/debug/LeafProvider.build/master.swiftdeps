@@ -1,8 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "8ffe3b0882d665895e97a681bdbe6222"
-build_time: [1515779463, 471346000]
-inputs:
-  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/Keys.swift": [1515779303, 0]
-  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/LeafProviderError.swift": [1515779303, 0]
-  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/LeafRenderer.swift": [1515779303, 0]
-  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/Provider.swift": [1515779303, 0]
