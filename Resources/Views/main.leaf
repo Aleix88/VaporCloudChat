@@ -62,23 +62,24 @@
             $("#()mybutton2").click(update);
 
             var clicked = false;
+            var pos = 0;
             
 
             function update() {
                 var txt = $("input").val();
-
+                pos = $("#()chatlogs2").scrollTop();
                 if (txt && clicked) {
                     $.post ("http://localhost:8080/chatSecond", {messageText: txt}, function(data) {
                             $("#()chatlogs").html(data);
                             window.setTimeout(update, 3000);
-                            $("#()chatlogs2").scrollTop (450);
+                            $("#()chatlogs2").scrollTop (pos);
                             });
                     clicked = false;
                 } else {
                     $.post ("http://localhost:8080/chatSecond", function(data) {
                             $("#()chatlogs").html(data);
                             window.setTimeout(update, 3000);
-                            $("#()chatlogs2").scrollTop (450);
+                            $("#()chatlogs2").scrollTop (pos);
                             });
                 }
             }
