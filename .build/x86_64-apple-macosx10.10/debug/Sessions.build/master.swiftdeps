@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "88e90d67b00baf285cd7ab990eca41b6"
+build_time: [1515782140, 280507000]
+inputs:
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/CacheSessions.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/MemorySessions.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Request+Session.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Session.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsError.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsMiddleware.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsProtocol.swift": [1515782067, 0]

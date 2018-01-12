@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "2555e9e1b318ea10cea144b803b0b0d9"
+build_time: [1515782104, 969200000]
+inputs:
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/Branch+Paths.swift": [1515782070, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/Branch.swift": [1515782070, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/SubBranchMap.swift": [1515782070, 0]

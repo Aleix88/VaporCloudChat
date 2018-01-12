@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "2c3238dc0bf86fb28de26d94e59943ca"
+build_time: [1515782108, 214096000]
+inputs:
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config+Arguments.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config+Directory.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Config.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/ConfigError.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/ConfigInitializable.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/Env.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/Node+Env.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Env/String+Env.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Environment.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/KeyAccessible+Merge.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/KeyAccessible.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Node+Merge.swift": [1515782067, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Configs/Source.swift": [1515782067, 0]

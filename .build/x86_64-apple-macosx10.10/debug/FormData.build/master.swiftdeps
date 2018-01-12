@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "1cb4357943c7ce68c41c204982e47468"
+build_time: [1515782139, 264630000]
+inputs:
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/ContentDispositionParser.swift": [1515782070, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Field.swift": [1515782070, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Parser.swift": [1515782070, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Serializer.swift": [1515782070, 0]

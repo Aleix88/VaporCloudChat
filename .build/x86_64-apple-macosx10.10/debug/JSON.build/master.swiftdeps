@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "b86046a642c69d85d0812960384d3a8b"
+build_time: [1515782105, 334227000]
+inputs:
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Fuzzy.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONContext.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [1515782071, 0]

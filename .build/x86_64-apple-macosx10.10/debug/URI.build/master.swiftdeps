@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "80acaa4e550a2ec268d43229d540c6bb"
+build_time: [1515782102, 103584000]
+inputs:
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Byte.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Modification.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Ports.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+String.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI.swift": [1515782071, 0]
+  "/Users/AleixDiaz/Documents/LaSalleChat/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser.swift": [1515782071, 0]
